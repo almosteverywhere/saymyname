@@ -57,6 +57,44 @@ def get_song_urls(url="http://rapgenius.com/artists/A-ap-rocky"):
     # what to do for pagination, we can use net console to figure out
     # what url the ajax is requesting to
 
+# given an ajax url, in the files directory, get the list of all songs
+# by that artist, and save the lyrics for all the songs in
+# ./artist/song so we can do data analysis at our leisure
+# given an artist page with a bunch of links, return urls
+# enormous asap rocky url=http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page=1&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=titlelis
+# for a given artist, gives us the first 10 pages of song urls
+def get_song_urls_defeat_ajax(base_url):
+
+    all_urls = []
+
+    artist_url1 = "http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page="
+    num = 1
+    artist_url2 = "&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=title"
+    # we ignore past 10 pages
+
+    for i in range(1,10):
+        all_urls.append(artist_url1 + str(i) + artist_url2)
+
+    urls = []
+    list = []
+
+    # ok, now this is super ghetto, we look at each of these pages, and check
+    # check when ul.song_list is empty.
+    for url in all_urls[8:]:
+        page = urllib2.urlopen(url).read()
+        soup = BeautifulSoup(page)
+        soup.prettify()
+        # in the ajax version, songs come in groups of 20 there
+        # are many ul.song_list in a page, with a group of 20 songs
+        # ok this is disgusting, but this is how we're going to cycle through the list
+        # of songs.
+        songlist = soup.select("ul.song_list a")
+        for link in songlist:
+            urls.append(base_url + link['href'])
+    return urls
+
+
+
 # bad words no one shoudl say, but there you go
 # bad_words = ['bitch', 'nigga' ]
 
