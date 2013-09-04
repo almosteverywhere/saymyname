@@ -97,7 +97,8 @@ def reckoning(artist_url="http://rapgenius.com/artists/A-ap-rocky", bad_words=['
     big_dict['num_words'] = 0
 
 # get the list of urls:
-    url_list = get_song_urls("http://rapgenius.com/artists/A-ap-rocky")
+    url_list = get_song_urls(artist_url)
+    num_songs = len(url_list)
     # for u in url_list:
     #     print u
     for u in url_list:
@@ -112,14 +113,14 @@ def reckoning(artist_url="http://rapgenius.com/artists/A-ap-rocky", bad_words=['
         small_dict = {}
 
     print "Total for " + artist_url
-    big_dict_stats(big_dict)
+    big_dict_stats(big_dict, num_songs)
 
-def big_dict_stats(dict):
+def big_dict_stats(dict, num_songs):
     print_dict(dict)
-    p_b = Decimal(dict['bitch']) / Decimal(dict['num_words'])
-    p_n = Decimal(dict['nigga']) / Decimal(dict['num_words'])
-    print "B-word is used " + str(p_b)
-    print "n-word is used " + str(p_n)
+    p_b = Decimal(dict['bitch']) / Decimal(num_songs)
+    p_n = Decimal(dict['nigga']) / Decimal(num_songs)
+    print "B-word is used on average" + str(p_b) + " times per song"
+    print "n-word is used on average" + str(p_n) + " times per song"
 
 # stats we want:
 # per total words
@@ -141,3 +142,34 @@ def big_dict_stats(dict):
 # need some kind of memoisation or store the results in a db of some kind
 # more signicant is per number of songs
 # or how many times per song
+
+
+# Total for http://rapgenius.com/artists/Lil-wayne
+# nigga : 131
+#
+# bitch : 80
+#
+# num_words : 12017
+#
+# B-word is used 4per song
+# n-word is used 6.55per song
+#
+# Total for http://rapgenius.com/artists/Jay-z
+# nigga : 133
+#
+# bitch : 24
+#
+# num_words : 12461
+#
+# B-word is used on average1.2 times per song
+# n-word is used on average6.65 times per song
+
+# Total for http://rapgenius.com/artists/A-ap-rocky
+# nigga : 133
+#
+# bitch : 78
+#
+# num_words : 11091
+#
+# B-word is used on average3.9 times per song
+# n-word is used on average6.65 times per song

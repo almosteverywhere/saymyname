@@ -1,0 +1,3546 @@
+http://rapgenius.com/artists/Rakim
+Last login: Sun Sep  1 21:16:32 on ttys001
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			include			main.py
+extract_links.py	lib
+Julies-MacBook-Pro-2:saymyname julielavoie$ chmod 700 extract_links.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+Traceback (most recent call last):
+  File "./extract_links.py", line 17, in <module>
+    url_list.push(base_url + i['href'])
+AttributeError: 'list' object has no attribute 'push'
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<a class="song_name published song_link" href="/Asap-ferg-work-remix-lyrics">
+<span class="title_with_artists">
+    Work (Remix) (ASAP Ferg)  (Ft. French Montana, Schoolboy Q &amp; Trinidad James) prod. by Chinza &amp; Fly Beats
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-ferg-shabba-lyrics">
+<span class="title_with_artists">
+    Shabba (ASAP Ferg)  prod. by Marvel Alexander &amp; Snugsworth
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-fuckin-problems-lyrics">
+<span class="title_with_artists">
+    Fuckin' Problems (Ft. 2 Chainz, Drake &amp; Kendrick Lamar) prod. by Drake &amp; Noah "40" Shebib
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-wild-for-the-night-lyrics">
+<span class="title_with_artists">
+    Wild for the Night (Ft. Skrillex) prod. by Birdy Nam Nam &amp; Skrillex
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-goldie-lyrics">
+<span class="title_with_artists">
+    Goldie prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/Rocko-uoeno-extended-remix-lyrics">
+<span class="title_with_artists">
+    U.O.E.N.O (Extended Remix) (Rocko)  (Ft. 2 Chainz, Future, Rick Ross &amp; Wiz Khalifa) prod. by Childish Major
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>, <a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>, <a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>, <a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<a class="song_name published song_link" href="/Asap-ferg-work-remix-lyrics">
+<span class="title_with_artists">
+    Work (Remix) (ASAP Ferg)  (Ft. French Montana, Schoolboy Q &amp; Trinidad James) prod. by Chinza &amp; Fly Beats
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-ferg-shabba-lyrics">
+<span class="title_with_artists">
+    Shabba (ASAP Ferg)  prod. by Marvel Alexander &amp; Snugsworth
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-fuckin-problems-lyrics">
+<span class="title_with_artists">
+    Fuckin' Problems (Ft. 2 Chainz, Drake &amp; Kendrick Lamar) prod. by Drake &amp; Noah "40" Shebib
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-wild-for-the-night-lyrics">
+<span class="title_with_artists">
+    Wild for the Night (Ft. Skrillex) prod. by Birdy Nam Nam &amp; Skrillex
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-goldie-lyrics">
+<span class="title_with_artists">
+    Goldie prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/Rocko-uoeno-extended-remix-lyrics">
+<span class="title_with_artists">
+    U.O.E.N.O (Extended Remix) (Rocko)  (Ft. 2 Chainz, Future, Rick Ross &amp; Wiz Khalifa) prod. by Childish Major
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>, <a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>, <a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>, <a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<a class="song_name published song_link" href="/Asap-ferg-work-remix-lyrics">
+<span class="title_with_artists">
+    Work (Remix) (ASAP Ferg)  (Ft. French Montana, Schoolboy Q &amp; Trinidad James) prod. by Chinza &amp; Fly Beats
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-ferg-shabba-lyrics">
+<span class="title_with_artists">
+    Shabba (ASAP Ferg)  prod. by Marvel Alexander &amp; Snugsworth
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-fuckin-problems-lyrics">
+<span class="title_with_artists">
+    Fuckin' Problems (Ft. 2 Chainz, Drake &amp; Kendrick Lamar) prod. by Drake &amp; Noah "40" Shebib
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-wild-for-the-night-lyrics">
+<span class="title_with_artists">
+    Wild for the Night (Ft. Skrillex) prod. by Birdy Nam Nam &amp; Skrillex
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-goldie-lyrics">
+<span class="title_with_artists">
+    Goldie prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name published song_link" href="/Rocko-uoeno-extended-remix-lyrics">
+<span class="title_with_artists">
+    U.O.E.N.O (Extended Remix) (Rocko)  (Ft. 2 Chainz, Future, Rick Ross &amp; Wiz Khalifa) prod. by Childish Major
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>, <a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>, <a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>, <a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[u'/Asap-ferg-work-remix-lyrics', u'/Asap-ferg-shabba-lyrics', u'/A-ap-rocky-fuckin-problems-lyrics', u'/A-ap-rocky-wild-for-the-night-lyrics', u'/A-ap-rocky-1-train-lyrics', u'/A-ap-rocky-goldie-lyrics', u'/Rocko-uoeno-extended-remix-lyrics', u'/A-ap-rocky-1-train-lyrics', u'/A-ap-rocky-1-train-french-version-lyrics', u'/Yazzy-paradise-1-train-remix-lyrics', u'/Square-off-24k-lyrics', u'/Smoke-dza-4-loko-lyrics', u'/A-ap-rocky-a-ap-worldwide-cypher-lyrics', u'/A-ap-rocky-acid-drip-lyrics', u'/A-ap-rocky-angels-lyrics', u'/A-ap-rocky-back-to-the-future-lyrics', u'/All-over-chief-baking-soda-lyrics', u'/Waka-flocka-flame-barry-bonds-lyrics', u'/A-ap-rocky-bass-lyrics', u'/Captain-jj-bass-remix-lyrics', u'/Asap-mob-bath-salt-lyrics', u'/Chase-n-cashe-beastin-lyrics', u'/Mariah-carey-beautiful-remix-lyrics', u'/A-ap-rocky-been-around-the-world-lyrics', u'/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics', u'/Theophilus-london-big-spender-lyrics', u'/A-ap-rocky-brand-new-guy-lyrics']
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[u'http://rapgenius.com/Asap-ferg-work-remix-lyrics', u'http://rapgenius.com/Asap-ferg-shabba-lyrics', u'http://rapgenius.com/A-ap-rocky-fuckin-problems-lyrics', u'http://rapgenius.com/A-ap-rocky-wild-for-the-night-lyrics', u'http://rapgenius.com/A-ap-rocky-1-train-lyrics', u'http://rapgenius.com/A-ap-rocky-goldie-lyrics', u'http://rapgenius.com/Rocko-uoeno-extended-remix-lyrics', u'http://rapgenius.com/A-ap-rocky-1-train-lyrics', u'http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics', u'http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics', u'http://rapgenius.com/Square-off-24k-lyrics', u'http://rapgenius.com/Smoke-dza-4-loko-lyrics', u'http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics', u'http://rapgenius.com/A-ap-rocky-acid-drip-lyrics', u'http://rapgenius.com/A-ap-rocky-angels-lyrics', u'http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics', u'http://rapgenius.com/All-over-chief-baking-soda-lyrics', u'http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics', u'http://rapgenius.com/A-ap-rocky-bass-lyrics', u'http://rapgenius.com/Captain-jj-bass-remix-lyrics', u'http://rapgenius.com/Asap-mob-bath-salt-lyrics', u'http://rapgenius.com/Chase-n-cashe-beastin-lyrics', u'http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics', u'http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics', u'http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics', u'http://rapgenius.com/Theophilus-london-big-spender-lyrics', u'http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics']
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+http://rapgenius.com/Asap-ferg-work-remix-lyrics
+http://rapgenius.com/Asap-ferg-shabba-lyrics
+http://rapgenius.com/A-ap-rocky-fuckin-problems-lyrics
+http://rapgenius.com/A-ap-rocky-wild-for-the-night-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-goldie-lyrics
+http://rapgenius.com/Rocko-uoeno-extended-remix-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+http://rapgenius.com/Square-off-24k-lyrics
+http://rapgenius.com/Smoke-dza-4-loko-lyrics
+http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+http://rapgenius.com/A-ap-rocky-angels-lyrics
+http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+http://rapgenius.com/All-over-chief-baking-soda-lyrics
+http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+http://rapgenius.com/A-ap-rocky-bass-lyrics
+http://rapgenius.com/Captain-jj-bass-remix-lyrics
+http://rapgenius.com/Asap-mob-bath-salt-lyrics
+http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+http://rapgenius.com/Theophilus-london-big-spender-lyrics
+http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+http://rapgenius.com/Asap-ferg-work-remix-lyrics
+http://rapgenius.com/Asap-ferg-shabba-lyrics
+http://rapgenius.com/A-ap-rocky-fuckin-problems-lyrics
+http://rapgenius.com/A-ap-rocky-wild-for-the-night-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-goldie-lyrics
+http://rapgenius.com/Rocko-uoeno-extended-remix-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+http://rapgenius.com/Square-off-24k-lyrics
+http://rapgenius.com/Smoke-dza-4-loko-lyrics
+http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+http://rapgenius.com/A-ap-rocky-angels-lyrics
+http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+http://rapgenius.com/All-over-chief-baking-soda-lyrics
+http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+http://rapgenius.com/A-ap-rocky-bass-lyrics
+http://rapgenius.com/Captain-jj-bass-remix-lyrics
+http://rapgenius.com/Asap-mob-bath-salt-lyrics
+http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+http://rapgenius.com/Theophilus-london-big-spender-lyrics
+http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+returning list of urls
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+http://rapgenius.com/Asap-ferg-work-remix-lyrics
+http://rapgenius.com/Asap-ferg-shabba-lyrics
+http://rapgenius.com/A-ap-rocky-fuckin-problems-lyrics
+http://rapgenius.com/A-ap-rocky-wild-for-the-night-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-goldie-lyrics
+http://rapgenius.com/Rocko-uoeno-extended-remix-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+http://rapgenius.com/Square-off-24k-lyrics
+http://rapgenius.com/Smoke-dza-4-loko-lyrics
+http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+http://rapgenius.com/A-ap-rocky-angels-lyrics
+http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+http://rapgenius.com/All-over-chief-baking-soda-lyrics
+http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+http://rapgenius.com/A-ap-rocky-bass-lyrics
+http://rapgenius.com/Captain-jj-bass-remix-lyrics
+http://rapgenius.com/Asap-mob-bath-salt-lyrics
+http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+http://rapgenius.com/Theophilus-london-big-spender-lyrics
+http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+returning list of urls
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+http://rapgenius.com/Asap-ferg-work-remix-lyrics
+http://rapgenius.com/Asap-ferg-shabba-lyrics
+returning list of urls
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			include			main.py
+extract_links.py	lib
+Julies-MacBook-Pro-2:saymyname julielavoie$ git init .
+Initialized empty Git repository in /Users/julielavoie/PycharmProjects/saymyname/.git/
+Julies-MacBook-Pro-2:saymyname julielavoie$ git add extract_links.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ git add main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ git commit -am "Initial commit."
+[master (root-commit) 14c9127] Initial commit.
+ 2 files changed, 99 insertions(+)
+ create mode 100755 extract_links.py
+ create mode 100755 main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ git remote add origin https://github.com/almosteverywhere/saymyname.git
+Julies-MacBook-Pro-2:saymyname julielavoie$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.45 KiB, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/almosteverywhere/saymyname.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			include			main.py
+extract_links.py	lib
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main
+-bash: ./main: No such file or directory
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+you have 5 bitch up in here
+you have 10 nigga up in here
+{'nigga': 10, 'bitch': 5}
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 32, in <module>
+    print_dict(mydict)
+  File "./main.py", line 25, in print_dict
+    print key + " : " + dict[key] + "\n"
+TypeError: cannot concatenate 'str' and 'int' objects
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+bitch : 5
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+nigga : 10
+
+bitch : 5
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+nigga : 11
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ git commit -am "cleanup"
+[master 38dfa55] cleanup
+ 2 files changed, 13 insertions(+), 39 deletions(-)
+Julies-MacBook-Pro-2:saymyname julielavoie$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 616 bytes, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/almosteverywhere/saymyname.git
+   14c9127..38dfa55  master -> master
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping tumblr.com
+http://rapgenius.com/A-ap-rocky-fuckin-probl^C
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping 132.205.1.1
+PING 132.205.1.1 (132.205.1.1): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+^C
+--- 132.205.1.1 ping statistics ---
+4 packets transmitted, 0 packets received, 100.0% packet loss
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping 132.205.1.1
+PING 132.205.1.1 (132.205.1.1): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+^C
+--- 132.205.1.1 ping statistics ---
+3 packets transmitted, 0 packets received, 100.0% packet loss
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			extract_links.pyc	lib
+extract_links.py	include			main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping 132.205.1.1
+PING 132.205.1.1 (132.205.1.1): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+^C
+--- 132.205.1.1 ping statistics ---
+3 packets transmitted, 0 packets received, 100.0% packet loss
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping 132.205.1.1
+PING 132.205.1.1 (132.205.1.1): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+^C
+--- 132.205.1.1 ping statistics ---
+4 packets transmitted, 0 packets received, 100.0% packet loss
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ping 132.205.1.1
+PING 132.205.1.1 (132.205.1.1): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+^C
+--- 132.205.1.1 ping statistics ---
+3 packets transmitted, 0 packets received, 100.0% packet loss
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			extract_links.pyc	lib
+extract_links.py	include			main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<ul class="song_list ">
+<li class="" data-id="151327">
+<a class="song_name published song_link" href="/Asap-ferg-work-remix-lyrics">
+<span class="title_with_artists">
+    Work (Remix) (ASAP Ferg)  (Ft. French Montana, Schoolboy Q &amp; Trinidad James) prod. by Chinza &amp; Fly Beats
+  </span>
+</a>
+</li>
+<li class="" data-id="151336">
+<a class="song_name published song_link" href="/Asap-ferg-shabba-lyrics">
+<span class="title_with_artists">
+    Shabba (ASAP Ferg)  prod. by Marvel Alexander &amp; Snugsworth
+  </span>
+</a>
+</li>
+<li class="" data-id="93539">
+<a class="song_name published song_link" href="/A-ap-rocky-fuckin-problems-lyrics">
+<span class="title_with_artists">
+    Fuckin' Problems (Ft. 2 Chainz, Drake &amp; Kendrick Lamar) prod. by Drake &amp; Noah "40" Shebib
+  </span>
+</a>
+</li>
+<li class="" data-id="103700">
+<a class="song_name published song_link" href="/A-ap-rocky-wild-for-the-night-lyrics">
+<span class="title_with_artists">
+    Wild for the Night (Ft. Skrillex) prod. by Birdy Nam Nam &amp; Skrillex
+  </span>
+</a>
+</li>
+<li class="" data-id="103554">
+<a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>
+</li>
+<li class="" data-id="71525">
+<a class="song_name published song_link" href="/A-ap-rocky-goldie-lyrics">
+<span class="title_with_artists">
+    Goldie prod. by Hit-Boy
+  </span>
+</a>
+</li>
+<li class="" data-id="148475">
+<a class="song_name published song_link" href="/Rocko-uoeno-extended-remix-lyrics">
+<span class="title_with_artists">
+    U.O.E.N.O (Extended Remix) (Rocko)  (Ft. 2 Chainz, Future, Rick Ross &amp; Wiz Khalifa) prod. by Childish Major
+  </span>
+</a>
+</li>
+</ul>, <ul class="song_list ">
+<li class="" data-id="103554">
+<a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>
+</li>
+<li class="" data-id="159021">
+<a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>
+</li>
+<li class="" data-id="163560">
+<a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>
+</li>
+<li class="" data-id="138548">
+<a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>
+</li>
+<li class="" data-id="55658">
+<a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>
+</li>
+<li class="" data-id="60604">
+<a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>
+</li>
+<li class="" data-id="58395">
+<a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>
+</li>
+<li class="" data-id="103683">
+<a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>
+</li>
+<li class="" data-id="56357">
+<a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>
+</li>
+<li class="" data-id="82671">
+<a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>
+</li>
+<li class="" data-id="92978">
+<a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>
+</li>
+<li class="" data-id="58374">
+<a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>
+</li>
+<li class="" data-id="153218">
+<a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>
+</li>
+<li class="" data-id="82756">
+<a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>
+</li>
+<li class="" data-id="101156">
+<a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>
+</li>
+<li class="" data-id="180022">
+<a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>
+</li>
+<li class="" data-id="58224">
+<a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>
+</li>
+<li class="" data-id="92106">
+<a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>
+</li>
+<li class="" data-id="71301">
+<a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>
+</li>
+<li class="" data-id="58313">
+<a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>
+</li>
+</ul>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+Traceback (most recent call last):
+  File "./extract_links.py", line 59, in <module>
+    parse_link_page()
+  File "./extract_links.py", line 51, in parse_link_page
+    urls.append(base_url + str(i['href']))
+  File "/Library/Python/2.7/site-packages/bs4/element.py", line 905, in __getitem__
+    return self.attrs[key]
+KeyError: 'href'
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+Traceback (most recent call last):
+  File "./extract_links.py", line 59, in <module>
+    parse_link_page()
+  File "./extract_links.py", line 51, in parse_link_page
+    urls.append(base_url + i['href'])
+  File "/Library/Python/2.7/site-packages/bs4/element.py", line 905, in __getitem__
+    return self.attrs[key]
+KeyError: 'href'
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>, <a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>, <a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>, <a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[<a class="song_name published song_link" href="/A-ap-rocky-1-train-lyrics">
+<span class="title_with_artists">
+    1 Train (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf) prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-1-train-french-version-lyrics">
+<span class="title_with_artists">
+    1 Train  (French Version) (Ft. Action Bronson, Big KRIT, Danny Brown, Joey BADA$$, Kendrick Lamar &amp; Yelawolf)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/Yazzy-paradise-1-train-remix-lyrics">
+<span class="title_with_artists">
+    1 Train (Remix) (Yazzy Paradise)  prod. by Hit-Boy
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Square-off-24k-lyrics">
+<span class="title_with_artists">
+    24k (Square Off)
+  </span>
+</a>, <a class="song_name published song_link" href="/Smoke-dza-4-loko-lyrics">
+<span class="title_with_artists">
+    4 Loko (Smoke DZA)
+  </span>
+</a>, <a class="song_name under_review song_link" href="/A-ap-rocky-a-ap-worldwide-cypher-lyrics">
+<span class="title_with_artists">
+    A$AP Worldwide Cypher (Ft. ASAP Ferg, ASAP Nast, ASAP Twelvyy &amp; SPACEGHOSTPURRP)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-acid-drip-lyrics">
+<span class="title_with_artists">
+    Acid Drip
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-angels-lyrics">
+<span class="title_with_artists">
+    Angels prod. by Amsterdam
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/A-ap-rocky-back-to-the-future-lyrics">
+<span class="title_with_artists">
+    Back to the Future
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/All-over-chief-baking-soda-lyrics">
+<span class="title_with_artists">
+    Baking Soda (All Over Chief)
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Waka-flocka-flame-barry-bonds-lyrics">
+<span class="title_with_artists">
+    Barry Bonds (Waka Flocka Flame)  (Ft. P Smurf)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bass-lyrics">
+<span class="title_with_artists">
+    Bass prod. by Clams Casino
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Captain-jj-bass-remix-lyrics">
+<span class="title_with_artists">
+    Bass Remix (Captain JJ)
+  </span>
+</a>, <a class="song_name published song_link" href="/Asap-mob-bath-salt-lyrics">
+<span class="title_with_artists">
+    Bath Salt (ASAP MOB)  (Ft. ASAP Ant &amp; Flatbush Zombies) prod. by P On The Boards
+  </span>
+</a>, <a class="song_name work_in_progress song_link" href="/Chase-n-cashe-beastin-lyrics">
+<span class="title_with_artists">
+    Beastin' (Chase N. Cashe)  prod. by Hink Aaron
+  </span>
+</a>, <a class="song_name published song_link" href="/Mariah-carey-beautiful-remix-lyrics">
+<span class="title_with_artists">
+    #Beautiful (Remix) (Mariah Carey)  (Ft. Miguel)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-been-around-the-world-lyrics">
+<span class="title_with_artists">
+    Been Around the World
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics">
+<span class="title_with_artists">
+    BET Cypher 2012: Man With the Iron Fists (Ft. Angel Haze, Childish Gambino, Driiky Graham &amp; Joey BADA$$)
+  </span>
+</a>, <a class="song_name published song_link" href="/Theophilus-london-big-spender-lyrics">
+<span class="title_with_artists">
+    Big Spender (Theophilus London)
+  </span>
+</a>, <a class="song_name published song_link" href="/A-ap-rocky-brand-new-guy-lyrics">
+<span class="title_with_artists">
+    Brand New Guy (Ft. Schoolboy Q) prod. by Lyle
+  </span>
+</a>]
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+[u'http://rapgenius.com/A-ap-rocky-1-train-lyrics', u'http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics', u'http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics', u'http://rapgenius.com/Square-off-24k-lyrics', u'http://rapgenius.com/Smoke-dza-4-loko-lyrics', u'http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics', u'http://rapgenius.com/A-ap-rocky-acid-drip-lyrics', u'http://rapgenius.com/A-ap-rocky-angels-lyrics', u'http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics', u'http://rapgenius.com/All-over-chief-baking-soda-lyrics', u'http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics', u'http://rapgenius.com/A-ap-rocky-bass-lyrics', u'http://rapgenius.com/Captain-jj-bass-remix-lyrics', u'http://rapgenius.com/Asap-mob-bath-salt-lyrics', u'http://rapgenius.com/Chase-n-cashe-beastin-lyrics', u'http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics', u'http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics', u'http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics', u'http://rapgenius.com/Theophilus-london-big-spender-lyrics', u'http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics']
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+http://rapgenius.com/Square-off-24k-lyrics
+http://rapgenius.com/Smoke-dza-4-loko-lyrics
+http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+http://rapgenius.com/A-ap-rocky-angels-lyrics
+http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+http://rapgenius.com/All-over-chief-baking-soda-lyrics
+http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+http://rapgenius.com/A-ap-rocky-bass-lyrics
+http://rapgenius.com/Captain-jj-bass-remix-lyrics
+http://rapgenius.com/Asap-mob-bath-salt-lyrics
+http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+http://rapgenius.com/Theophilus-london-big-spender-lyrics
+http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./extract_links.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+nigga : 11
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ git commit -am "Given artist page, return list of song urls"
+[master 8d4551e] Given artist page, return list of song urls
+ 2 files changed, 55 insertions(+), 33 deletions(-)
+ rewrite main.py (70%)
+Julies-MacBook-Pro-2:saymyname julielavoie$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.25 KiB, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/almosteverywhere/saymyname.git
+   38dfa55..8d4551e  master -> master
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 87
+    url_list = get_song_urls(artist_url)
+           ^
+IndentationError: expected an indented block
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 87
+    url_list = get_song_urls("http://rapgenius.com/artists/A-ap-rocky")
+           ^
+IndentationError: expected an indented block
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 88
+    for u in url_list:
+    ^
+IndentationError: unexpected indent
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+http://rapgenius.com/A-ap-rocky-1-train-lyrics
+http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+http://rapgenius.com/Square-off-24k-lyrics
+http://rapgenius.com/Smoke-dza-4-loko-lyrics
+http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+http://rapgenius.com/A-ap-rocky-angels-lyrics
+http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+http://rapgenius.com/All-over-chief-baking-soda-lyrics
+http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+http://rapgenius.com/A-ap-rocky-bass-lyrics
+http://rapgenius.com/Captain-jj-bass-remix-lyrics
+http://rapgenius.com/Asap-mob-bath-salt-lyrics
+http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+http://rapgenius.com/Theophilus-london-big-spender-lyrics
+http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 87
+    big_dict = {}
+           ^
+IndentationError: expected an indented block
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 101, in <module>
+    print_dict(big_dict)
+NameError: name 'big_dict' is not defined
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+^CTraceback (most recent call last):
+  File "./main.py", line 9, in <module>
+    reckoning()
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 96, in reckoning
+    lyrics = get_lyrics(u)
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 31, in get_lyrics
+    page = urllib2.urlopen(song_url).read()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 126, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 412, in _open
+    '_open', req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1170, in do_open
+    r = h.getresponse(buffering=True)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1027, in getresponse
+    response.begin()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 407, in begin
+    version, status, reason = self._read_status()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+KeyboardInterrupt
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 9, in <module>
+    reckoning()
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 100, in reckoning
+    print "now we have " + big_dict['bitch'] + " bitches"
+TypeError: cannot concatenate 'str' and 'int' objects
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+now we have 4 bitches
+now we have 6 niggas
+now we have 8 bitches
+now we have 12 niggas
+nigga : 12
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 9, in <module>
+    reckoning()
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 96, in reckoning
+    print "song: " + url
+NameError: global name 'url' is not defined
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+now we have 4 bitches
+now we have 6 niggas
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+now we have 8 bitches
+now we have 12 niggas
+nigga : 12
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+now we have 4 bitches
+now we have 6 niggas
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+now we have 8 bitches
+now we have 12 niggas
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+now we have 8 bitches
+now we have 12 niggas
+nigga : 12
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+now we have 4 bitches
+now we have 6 niggas
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+now we have 8 bitches
+now we have 12 niggas
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+now we have 8 bitches
+now we have 12 niggas
+song: http://rapgenius.com/Square-off-24k-lyrics
+now we have 16 bitches
+now we have 24 niggas
+nigga : 24
+
+bitch : 16
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+now we have 4 bitches
+now we have 6 niggas
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+now we have 8 bitches
+now we have 12 niggas
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+now we have 8 bitches
+now we have 12 niggas
+song: http://rapgenius.com/Square-off-24k-lyrics
+now we have 16 bitches
+now we have 24 niggas
+nigga : 24
+
+bitch : 16
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+bitch : 4
+
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+bitch : 4
+
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+bitch : 0
+
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+bitch : 8
+
+nigga : 12
+
+bitch : 8
+
+nigga : 24
+
+bitch : 16
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 106, in <module>
+    print_dict(big_dict)
+NameError: name 'big_dict' is not defined
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 106, in <module>
+    print_dict(big_dict)
+NameError: name 'big_dict' is not defined
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+bitch : 4
+
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+bitch : 4
+
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+bitch : 0
+
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+bitch : 8
+
+nigga : 12
+
+bitch : 8
+
+nigga : 24
+
+bitch : 16
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+nigga : 24
+
+bitch : 16
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+song: http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+nigga : 21
+
+bitch : 19
+
+song: http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/A-ap-rocky-angels-lyrics
+nigga : 16
+
+bitch : 2
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 75
+
+bitch : 37
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 96
+    for u in url_list[]:
+                      ^
+SyntaxError: invalid syntax
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+song: http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+nigga : 21
+
+bitch : 19
+
+song: http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/A-ap-rocky-angels-lyrics
+nigga : 16
+
+bitch : 2
+
+song: http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+nigga : 1
+
+bitch : 0
+
+song: http://rapgenius.com/All-over-chief-baking-soda-lyrics
+nigga : 2
+
+bitch : 1
+
+song: http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+nigga : 11
+
+bitch : 4
+
+song: http://rapgenius.com/A-ap-rocky-bass-lyrics
+nigga : 7
+
+bitch : 5
+
+song: http://rapgenius.com/Captain-jj-bass-remix-lyrics
+nigga : 1
+
+bitch : 2
+
+song: http://rapgenius.com/Asap-mob-bath-salt-lyrics
+nigga : 12
+
+bitch : 8
+
+song: http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+nigga : 1
+
+bitch : 4
+
+song: http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+song: http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+nigga : 1
+
+bitch : 1
+
+song: http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+nigga : 3
+
+bitch : 2
+
+song: http://rapgenius.com/Theophilus-london-big-spender-lyrics
+nigga : 5
+
+bitch : 7
+
+song: http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+nigga : 14
+
+bitch : 7
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 133
+
+bitch : 78
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 207
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 12
+
+bitch : 8
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+Traceback (most recent call last):
+  File "./main.py", line 9, in <module>
+    reckoning()
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 107, in reckoning
+    big_dict['num_words'] += (0 or small_dict['num_words'])
+KeyError: 'num_words'
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 26
+
+bitch : 8
+
+num_words : 858
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 26
+
+bitch : 8
+
+num_words : 858
+
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 26
+
+bitch : 8
+
+num_words : 858
+
+B-word is used 0
+n-word is used 0
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 26
+
+bitch : 8
+
+num_words : 858
+
+B-word is used 0.009324009324009324009324009324
+n-word is used 0.03030303030303030303030303030
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+Traceback (most recent call last):
+  File "./main.py", line 2, in <module>
+    from extract_links import *
+  File "/Users/julielavoie/PycharmProjects/saymyname/extract_links.py", line 103
+    for u in url_list[]:
+                      ^
+SyntaxError: invalid syntax
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 207
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+song: http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+nigga : 21
+
+bitch : 19
+
+num_words : 1239
+
+song: http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 188
+
+song: http://rapgenius.com/A-ap-rocky-angels-lyrics
+nigga : 16
+
+bitch : 2
+
+num_words : 399
+
+song: http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 330
+
+song: http://rapgenius.com/All-over-chief-baking-soda-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 617
+
+song: http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+nigga : 11
+
+bitch : 4
+
+num_words : 468
+
+song: http://rapgenius.com/A-ap-rocky-bass-lyrics
+nigga : 7
+
+bitch : 5
+
+num_words : 330
+
+song: http://rapgenius.com/Captain-jj-bass-remix-lyrics
+nigga : 1
+
+bitch : 2
+
+num_words : 294
+
+song: http://rapgenius.com/Asap-mob-bath-salt-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 608
+
+song: http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+nigga : 1
+
+bitch : 4
+
+num_words : 458
+
+song: http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 327
+
+song: http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+nigga : 1
+
+bitch : 1
+
+num_words : 336
+
+song: http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+nigga : 3
+
+bitch : 2
+
+num_words : 939
+
+song: http://rapgenius.com/Theophilus-london-big-spender-lyrics
+nigga : 5
+
+bitch : 7
+
+num_words : 493
+
+song: http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+nigga : 14
+
+bitch : 7
+
+num_words : 620
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 133
+
+bitch : 78
+
+num_words : 11091
+
+B-word is used 0.007032729239924262915877738707
+n-word is used 0.01199170498602470471553511856
+Julies-MacBook-Pro-2:saymyname julielavoie$ git commit -am "count total, and words"
+[master 903f7cf] count total, and words
+ 2 files changed, 72 insertions(+), 10 deletions(-)
+Julies-MacBook-Pro-2:saymyname julielavoie$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.22 KiB, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/almosteverywhere/saymyname.git
+   8d4551e..903f7cf  master -> master
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			extract_links.pyc	lib
+extract_links.py	include			main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ cd ..
+Julies-MacBook-Pro-2:PycharmProjects julielavoie$ ls
+HIDE.juju_flask	euler		js-assess	mockup		python_koans	sleephacks
+django-project	faces-game	juju_flask	node		rails-projects	toodamnhigh
+do-you-even	grow-a-pair	lulu_flask	python-asses	saymyname
+Julies-MacBook-Pro-2:PycharmProjects julielavoie$ cd python
+-bash: cd: python: No such file or directory
+Julies-MacBook-Pro-2:PycharmProjects julielavoie$ cd python_koans/
+Julies-MacBook-Pro-2:python_koans julielavoie$ ls
+Contributor Notes.txt	README.rst		python3
+MIT-LICENSE		python2
+Julies-MacBook-Pro-2:python_koans julielavoie$ cd python2
+Julies-MacBook-Pro-2:python2 julielavoie$ ls
+_runner_tests.py	example_file.txt	libs			run.sh
+contemplate_koans.py	koans			run.bat			runner
+Julies-MacBook-Pro-2:python2 julielavoie$ vi _runner_tests.py
+Julies-MacBook-Pro-2:python2 julielavoie$ vi contemplate_koans.py
+Julies-MacBook-Pro-2:python2 julielavoie$ cd ..
+Julies-MacBook-Pro-2:python_koans julielavoie$ ls
+Contributor Notes.txt	README.rst		python3
+MIT-LICENSE		python2
+Julies-MacBook-Pro-2:python_koans julielavoie$ cd ..
+Julies-MacBook-Pro-2:PycharmProjects julielavoie$ ls
+HIDE.juju_flask	euler		js-assess	mockup		python_koans	sleephacks
+django-project	faces-game	juju_flask	node		rails-projects	toodamnhigh
+do-you-even	grow-a-pair	lulu_flask	python-asses	saymyname
+Julies-MacBook-Pro-2:PycharmProjects julielavoie$ cd saymyname/
+Julies-MacBook-Pro-2:saymyname julielavoie$ ls
+bin			extract_links.pyc	lib
+extract_links.py	include			main.py
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py foo
+['foo']
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py foo
+foo
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Lil-wayne
+http://rapgenius.com/artists/Lil-wayne
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Lil-wayne
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 207
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+song: http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+nigga : 21
+
+bitch : 19
+
+num_words : 1239
+
+song: http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 188
+
+song: http://rapgenius.com/A-ap-rocky-angels-lyrics
+nigga : 16
+
+bitch : 2
+
+num_words : 399
+
+song: http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 330
+
+song: http://rapgenius.com/All-over-chief-baking-soda-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 617
+
+song: http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+nigga : 11
+
+bitch : 4
+
+num_words : 468
+
+song: http://rapgenius.com/A-ap-rocky-bass-lyrics
+nigga : 7
+
+bitch : 5
+
+num_words : 330
+
+song: http://rapgenius.com/Captain-jj-bass-remix-lyrics
+nigga : 1
+
+bitch : 2
+
+num_words : 294
+
+song: http://rapgenius.com/Asap-mob-bath-salt-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 608
+
+song: http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+nigga : 1
+
+bitch : 4
+
+num_words : 458
+
+song: http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 327
+
+song: http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+nigga : 1
+
+bitch : 1
+
+num_words : 336
+
+song: http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+nigga : 3
+
+bitch : 2
+
+num_words : 939
+
+song: http://rapgenius.com/Theophilus-london-big-spender-lyrics
+nigga : 5
+
+bitch : 7
+
+num_words : 493
+
+song: http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+nigga : 14
+
+bitch : 7
+
+num_words : 620
+
+Total for http://rapgenius.com/artists/Lil-wayne
+nigga : 133
+
+bitch : 78
+
+num_words : 11091
+
+B-word is used 0.007032729239924262915877738707
+n-word is used 0.01199170498602470471553511856
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Lil-wayne
+song: http://rapgenius.com/Birdman-100-million-lyrics
+nigga : 8
+
+bitch : 3
+
+num_words : 581
+
+song: http://rapgenius.com/Lil-wayne-100-winters-lyrics
+nigga : 3
+
+bitch : 7
+
+num_words : 544
+
+song: http://rapgenius.com/Birdman-1st-key-lyrics
+nigga : 8
+
+bitch : 1
+
+num_words : 580
+
+song: http://rapgenius.com/Big-tymers-1-stunna-lyrics
+nigga : 15
+
+bitch : 13
+
+num_words : 819
+
+song: http://rapgenius.com/Lil-wayne-30-minutes-to-new-orleans-lyrics
+nigga : 1
+
+bitch : 4
+
+num_words : 509
+
+song: http://rapgenius.com/Lil-wayne-3-n-morning-lyrics
+nigga : 0
+
+bitch : 2
+
+num_words : 369
+
+song: http://rapgenius.com/Lil-wayne-3-peat-lyrics
+nigga : 2
+
+bitch : 3
+
+num_words : 453
+
+song: http://rapgenius.com/Bow-wow-4-corners-lyrics
+nigga : 5
+
+bitch : 0
+
+num_words : 727
+
+song: http://rapgenius.com/Birdman-4-my-town-lyrics
+nigga : 1
+
+bitch : 1
+
+num_words : 426
+
+song: http://rapgenius.com/Tyga-500-degrees-lyrics
+nigga : 18
+
+bitch : 8
+
+num_words : 518
+
+song: http://rapgenius.com/Lil-wayne-500-degreez-lyrics
+nigga : 5
+
+bitch : 1
+
+num_words : 570
+
+song: http://rapgenius.com/Jim-jones-60-rackz-remix-lyrics
+nigga : 9
+
+bitch : 3
+
+num_words : 725
+
+song: http://rapgenius.com/Lil-wayne-6-foot-7-foot-lyrics
+nigga : 11
+
+bitch : 9
+
+num_words : 792
+
+song: http://rapgenius.com/Cassidy-6-minutes-of-death-lyrics
+nigga : 14
+
+bitch : 4
+
+num_words : 1238
+
+song: http://rapgenius.com/David-banner-9mm-lyrics
+nigga : 5
+
+bitch : 1
+
+num_words : 605
+
+song: http://rapgenius.com/Rick-ross-9-piece-remix-lyrics
+nigga : 4
+
+bitch : 5
+
+num_words : 302
+
+song: http://rapgenius.com/Lil-wayne-abortion-lyrics
+nigga : 5
+
+bitch : 0
+
+num_words : 410
+
+song: http://rapgenius.com/Lil-wayne-about-all-that-lyrics
+nigga : 13
+
+bitch : 3
+
+num_words : 527
+
+song: http://rapgenius.com/Lil-wayne-act-a-ass-lyrics
+nigga : 3
+
+bitch : 6
+
+num_words : 852
+
+song: http://rapgenius.com/Lil-wayne-action-lyrics
+nigga : 1
+
+bitch : 6
+
+num_words : 470
+
+Total for http://rapgenius.com/artists/Lil-wayne
+nigga : 131
+
+bitch : 80
+
+num_words : 12017
+
+B-word is used 4per song
+n-word is used 6.55per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Jay-z
+song: http://rapgenius.com/Jay-z-03-bonnie-and-clyde-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 460
+
+song: http://rapgenius.com/Jay-z-100-bill-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 499
+
+song: http://rapgenius.com/Jg-trigga-100-bill-remix-lyrics
+nigga : 0
+
+bitch : 2
+
+num_words : 284
+
+song: http://rapgenius.com/Time-magazine-100-most-influential-people-in-the-world-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 193
+
+song: http://rapgenius.com/Memphis-bleek-1-2-yall-lyrics
+nigga : 16
+
+bitch : 3
+
+num_words : 1008
+
+song: http://rapgenius.com/Jay-z-1-900-hustler-lyrics
+nigga : 13
+
+bitch : 1
+
+num_words : 908
+
+song: http://rapgenius.com/Jay-z-2002-funk-flex-freestyle-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 478
+
+song: http://rapgenius.com/Jay-z-20-bag-shorty-lyrics
+nigga : 6
+
+bitch : 1
+
+num_words : 649
+
+song: http://rapgenius.com/Jay-z-22-twos-lyrics
+nigga : 5
+
+bitch : 3
+
+num_words : 345
+
+song: http://rapgenius.com/Jay-z-2-many-hoes-lyrics
+nigga : 4
+
+bitch : 0
+
+num_words : 550
+
+song: http://rapgenius.com/Jay-z-30-something-lyrics
+nigga : 6
+
+bitch : 0
+
+num_words : 716
+
+song: http://rapgenius.com/Jay-z-30-something-remix-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 635
+
+song: http://rapgenius.com/Rick-ross-3-kings-lyrics
+nigga : 10
+
+bitch : 3
+
+num_words : 690
+
+song: http://rapgenius.com/Rick-ross-3-kings-french-version-lyrics
+nigga : 10
+
+bitch : 3
+
+num_words : 692
+
+song: http://rapgenius.com/Jay-z-44-fours-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 302
+
+song: http://rapgenius.com/Mop-4-alarm-blaze-lyrics
+nigga : 12
+
+bitch : 2
+
+num_words : 624
+
+song: http://rapgenius.com/Amil-4-da-fam-lyrics
+nigga : 13
+
+bitch : 0
+
+num_words : 661
+
+song: http://rapgenius.com/Lil-cease-4-my-niggaz-lyrics
+nigga : 14
+
+bitch : 1
+
+num_words : 748
+
+song: http://rapgenius.com/Big-l-7-minute-freestyle-lyrics
+nigga : 12
+
+bitch : 4
+
+num_words : 1499
+
+song: http://rapgenius.com/Jay-z-8-miles-and-running-lyrics
+nigga : 5
+
+bitch : 0
+
+num_words : 520
+
+Total for http://rapgenius.com/artists/Jay-z
+nigga : 133
+
+bitch : 24
+
+num_words : 12461
+
+B-word is used on average1.2 times per song
+n-word is used on average6.65 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Kanye-west
+song: http://rapgenius.com/Jay-z-03-bonnie-and-clyde-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 460
+
+song: http://rapgenius.com/Consequence-03-till-infinity-lyrics
+nigga : 0
+
+bitch : 5
+
+num_words : 501
+
+song: http://rapgenius.com/Game-500-bars-otis-freestyle-lyrics
+nigga : 74
+
+bitch : 34
+
+num_words : 4160
+
+song: http://rapgenius.com/Kanye-west-addiction-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 369
+
+song: http://rapgenius.com/Jay-z-a-dream-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 500
+
+song: http://rapgenius.com/Bore-balboa-akuzativ-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 245
+
+song: http://rapgenius.com/Kendrick-lamar-a-little-appalled-lyrics
+nigga : 0
+
+bitch : 3
+
+num_words : 602
+
+song: http://rapgenius.com/Kanye-west-all-falls-down-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 523
+
+song: http://rapgenius.com/Kanye-west-all-falls-down-original-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 617
+
+song: http://rapgenius.com/Kanye-west-all-of-the-lights-lyrics
+nigga : 4
+
+bitch : 0
+
+num_words : 408
+
+song: http://rapgenius.com/Drake-all-of-the-lights-remix-lyrics
+nigga : 3
+
+bitch : 3
+
+num_words : 675
+
+song: http://rapgenius.com/Stromae-alors-on-danse-remix-lyrics
+nigga : 0
+
+bitch : 1
+
+num_words : 321
+
+song: http://rapgenius.com/Jay-z-already-home-lyrics
+nigga : 4
+
+bitch : 1
+
+num_words : 544
+
+song: http://rapgenius.com/Twista-alright-lyrics
+nigga : 2
+
+bitch : 3
+
+num_words : 563
+
+song: http://rapgenius.com/Kanye-west-amazing-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 230
+
+song: http://rapgenius.com/Pusha-t-amen-lyrics
+nigga : 8
+
+bitch : 0
+
+num_words : 607
+
+song: http://rapgenius.com/Estelle-american-boy-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 506
+
+song: http://rapgenius.com/Kanye-west-american-psycho-short-film-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 193
+
+song: http://rapgenius.com/Kanye-west-a-million-and-one-freestyle-lyrics
+nigga : 10
+
+bitch : 2
+
+num_words : 460
+
+song: http://rapgenius.com/Game-angel-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 591
+
+Total for http://rapgenius.com/artists/Kanye-west
+nigga : 111
+
+bitch : 52
+
+num_words : 13075
+
+B-word is used on average2.6 times per song
+n-word is used on average5.55 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/A-ap-rocky
+song: http://rapgenius.com/A-ap-rocky-1-train-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/A-ap-rocky-1-train-french-version-lyrics
+nigga : 6
+
+bitch : 4
+
+num_words : 1190
+
+song: http://rapgenius.com/Yazzy-paradise-1-train-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 207
+
+song: http://rapgenius.com/Square-off-24k-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 469
+
+song: http://rapgenius.com/Smoke-dza-4-loko-lyrics
+nigga : 14
+
+bitch : 0
+
+num_words : 389
+
+song: http://rapgenius.com/A-ap-rocky-a-ap-worldwide-cypher-lyrics
+nigga : 21
+
+bitch : 19
+
+num_words : 1239
+
+song: http://rapgenius.com/A-ap-rocky-acid-drip-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 188
+
+song: http://rapgenius.com/A-ap-rocky-angels-lyrics
+nigga : 16
+
+bitch : 2
+
+num_words : 399
+
+song: http://rapgenius.com/A-ap-rocky-back-to-the-future-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 330
+
+song: http://rapgenius.com/All-over-chief-baking-soda-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 617
+
+song: http://rapgenius.com/Waka-flocka-flame-barry-bonds-lyrics
+nigga : 11
+
+bitch : 4
+
+num_words : 468
+
+song: http://rapgenius.com/A-ap-rocky-bass-lyrics
+nigga : 7
+
+bitch : 5
+
+num_words : 330
+
+song: http://rapgenius.com/Captain-jj-bass-remix-lyrics
+nigga : 1
+
+bitch : 2
+
+num_words : 294
+
+song: http://rapgenius.com/Asap-mob-bath-salt-lyrics
+nigga : 12
+
+bitch : 8
+
+num_words : 608
+
+song: http://rapgenius.com/Chase-n-cashe-beastin-lyrics
+nigga : 1
+
+bitch : 4
+
+num_words : 458
+
+song: http://rapgenius.com/Mariah-carey-beautiful-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 327
+
+song: http://rapgenius.com/A-ap-rocky-been-around-the-world-lyrics
+nigga : 1
+
+bitch : 1
+
+num_words : 336
+
+song: http://rapgenius.com/A-ap-rocky-bet-cypher-2012-man-with-the-iron-fists-lyrics
+nigga : 3
+
+bitch : 2
+
+num_words : 939
+
+song: http://rapgenius.com/Theophilus-london-big-spender-lyrics
+nigga : 5
+
+bitch : 7
+
+num_words : 493
+
+song: http://rapgenius.com/A-ap-rocky-brand-new-guy-lyrics
+nigga : 14
+
+bitch : 7
+
+num_words : 620
+
+Total for http://rapgenius.com/artists/A-ap-rocky
+nigga : 133
+
+bitch : 78
+
+num_words : 11091
+
+B-word is used on average3.9 times per song
+n-word is used on average6.65 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Wu-tang-clan
+song: http://rapgenius.com/Wu-tang-clan-16th-chamber-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 519
+
+song: http://rapgenius.com/Wu-tang-clan-16th-chamber-odb-special-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 523
+
+song: http://rapgenius.com/Ghostface-killah-9-milli-bros-lyrics
+nigga : 9
+
+bitch : 1
+
+num_words : 871
+
+song: http://rapgenius.com/Wu-tang-clan-a-better-tomorrow-lyrics
+nigga : 0
+
+bitch : 1
+
+num_words : 910
+
+song: http://rapgenius.com/Wu-tang-clan-america-lyrics
+nigga : 3
+
+bitch : 1
+
+num_words : 695
+
+song: http://rapgenius.com/Swv-anything-old-skool-radio-version-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 362
+
+song: http://rapgenius.com/Wu-tang-clan-as-high-as-wu-tang-get-lyrics
+nigga : 4
+
+bitch : 0
+
+num_words : 436
+
+song: http://rapgenius.com/Wu-tang-clan-babies-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 616
+
+song: http://rapgenius.com/Wu-tang-clan-back-in-the-game-lyrics
+nigga : 5
+
+bitch : 2
+
+num_words : 751
+
+song: http://rapgenius.com/Wu-tang-clan-bells-of-war-lyrics
+nigga : 6
+
+bitch : 0
+
+num_words : 923
+
+song: http://rapgenius.com/Wu-tang-clan-bring-da-ruckus-lyrics
+nigga : 4
+
+bitch : 1
+
+num_words : 514
+
+song: http://rapgenius.com/Wu-tang-clan-bring-da-ruckus-demo-version-lyrics
+nigga : 4
+
+bitch : 1
+
+num_words : 514
+
+song: http://rapgenius.com/Wu-tang-clan-brooklyns-business-lyrics
+nigga : 12
+
+bitch : 0
+
+num_words : 1134
+
+song: http://rapgenius.com/Wu-tang-clan-campfire-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 540
+
+song: http://rapgenius.com/Wu-tang-clan-can-it-be-all-so-simple-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 550
+
+song: http://rapgenius.com/Wu-tang-clan-careful-click-click-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 593
+
+song: http://rapgenius.com/Wu-tang-clan-cash-still-rules-scary-hours-still-dont-nothing-move-but-the-money-lyrics
+nigga : 9
+
+bitch : 0
+
+num_words : 597
+
+song: http://rapgenius.com/Wu-tang-clan-chamber-music-lyrics
+nigga : 5
+
+bitch : 0
+
+num_words : 652
+
+song: http://rapgenius.com/Wu-tang-clan-chrome-wheels-lyrics
+nigga : 5
+
+bitch : 4
+
+num_words : 645
+
+song: http://rapgenius.com/Wu-tang-clan-clan-in-da-front-lyrics
+nigga : 1
+
+bitch : 1
+
+num_words : 399
+
+Total for http://rapgenius.com/artists/Wu-tang-clan
+nigga : 83
+
+bitch : 13
+
+num_words : 12744
+
+B-word is used on average0.65 times per song
+n-word is used on average4.15 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Tyga
+song: http://rapgenius.com/Gudda-gudda-100-on-it-lyrics
+nigga : 11
+
+bitch : 3
+
+num_words : 446
+
+song: http://rapgenius.com/Tyga-187-lyrics
+nigga : 2
+
+bitch : 1
+
+num_words : 165
+
+song: http://rapgenius.com/Chris-brown-2011-bet-cypher-chris-brown-and-friends-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 620
+
+song: http://rapgenius.com/Kevin-mccall-360-lyrics
+nigga : 5
+
+bitch : 1
+
+num_words : 549
+
+song: http://rapgenius.com/Tyga-500-degrees-lyrics
+nigga : 18
+
+bitch : 8
+
+num_words : 518
+
+song: http://rapgenius.com/Tyga-95-like-dat-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 546
+
+song: http://rapgenius.com/New-boyz-active-kings-lyrics
+nigga : 4
+
+bitch : 4
+
+num_words : 552
+
+song: http://rapgenius.com/Tyga-aim-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 509
+
+song: http://rapgenius.com/Loverance-akup-lyrics
+nigga : 5
+
+bitch : 19
+
+num_words : 586
+
+song: http://rapgenius.com/Tyga-all-gold-everything-freestyle-lyrics
+nigga : 18
+
+bitch : 2
+
+num_words : 312
+
+song: http://rapgenius.com/Dj-khaled-a-million-lights-lyrics
+nigga : 3
+
+bitch : 0
+
+num_words : 532
+
+song: http://rapgenius.com/Tyga-apollyons-theme-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 356
+
+song: http://rapgenius.com/Tyga-ayye-bitch-lyrics
+nigga : 2
+
+bitch : 5
+
+num_words : 167
+
+song: http://rapgenius.com/Travis-porter-ayy-ladies-lyrics
+nigga : 4
+
+bitch : 3
+
+num_words : 452
+
+song: http://rapgenius.com/Tyga-bad-bitches-lyrics
+nigga : 1
+
+bitch : 8
+
+num_words : 333
+
+song: http://rapgenius.com/Tyga-bad-bitches-remix-lyrics
+nigga : 1
+
+bitch : 21
+
+num_words : 680
+
+song: http://rapgenius.com/Chris-brown-ballin-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 367
+
+song: http://rapgenius.com/Chris-brown-bet-cypher-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 621
+
+song: http://rapgenius.com/Tyga-better-days-lyrics
+nigga : 8
+
+bitch : 2
+
+num_words : 385
+
+song: http://rapgenius.com/Rich-gang-bigger-than-life-lyrics
+nigga : 14
+
+bitch : 3
+
+num_words : 645
+
+Total for http://rapgenius.com/artists/Tyga
+nigga : 97
+
+bitch : 80
+
+num_words : 9341
+
+B-word is used on average4 times per song
+n-word is used on average4.85 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Nas
+song: http://rapgenius.com/Nas-1996-freestyle-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 445
+
+song: http://rapgenius.com/Nas-2nd-childhood-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 483
+
+song: http://rapgenius.com/Tyler-the-creator-48-lyrics
+nigga : 4
+
+bitch : 1
+
+num_words : 582
+
+song: http://rapgenius.com/Nas-96-clue-freestyle-lyrics
+nigga : 6
+
+bitch : 3
+
+num_words : 818
+
+song: http://rapgenius.com/Nas-96-freestyle-lyrics
+nigga : 5
+
+bitch : 0
+
+num_words : 1592
+
+song: http://rapgenius.com/Nas-accident-murderers-lyrics
+nigga : 9
+
+bitch : 1
+
+num_words : 546
+
+song: http://rapgenius.com/Nas-accident-murderers-remix-lyrics
+nigga : 9
+
+bitch : 1
+
+num_words : 729
+
+song: http://rapgenius.com/Papoose-across-the-track-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 377
+
+song: http://rapgenius.com/Nas-affirmative-action-lyrics
+nigga : 11
+
+bitch : 3
+
+num_words : 746
+
+song: http://rapgenius.com/Az-affirmative-action-ii-lyrics
+nigga : 5
+
+bitch : 1
+
+num_words : 702
+
+song: http://rapgenius.com/Supreme-ntm-affirmative-action-saint-denis-style-remix-lyrics
+nigga : 4
+
+bitch : 2
+
+num_words : 666
+
+song: http://rapgenius.com/Nas-africa-must-wake-up-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 495
+
+song: http://rapgenius.com/Nas-album-intro-lyrics
+nigga : 2
+
+bitch : 0
+
+num_words : 365
+
+song: http://rapgenius.com/Nas-america-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 589
+
+song: http://rapgenius.com/Nas-american-way-lyrics
+nigga : 0
+
+bitch : 1
+
+num_words : 646
+
+song: http://rapgenius.com/Nas-a-message-to-the-feds-sincerely-we-the-people-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 349
+
+song: http://rapgenius.com/Nas-amongst-kings-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 466
+
+song: http://rapgenius.com/Jay-z-analyze-this-lyrics
+nigga : 1
+
+bitch : 0
+
+num_words : 690
+
+song: http://rapgenius.com/Nas-ancient-people-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 351
+
+song: http://rapgenius.com/Damian-marley-ancient-people-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 383
+
+Total for http://rapgenius.com/artists/Nas
+nigga : 61
+
+bitch : 13
+
+num_words : 12020
+
+B-word is used on average0.65 times per song
+n-word is used on average3.05 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/2pac
+song: http://rapgenius.com/2pac-16-on-death-row-lyrics
+nigga : 4
+
+bitch : 2
+
+num_words : 722
+
+song: http://rapgenius.com/2pac-187-on-a-hook-lyrics
+nigga : 19
+
+bitch : 2
+
+num_words : 711
+
+song: http://rapgenius.com/2pac-2-of-amerikas-most-wanted-remix-lyrics
+nigga : 11
+
+bitch : 1
+
+num_words : 644
+
+song: http://rapgenius.com/2pac-2-of-amerikaz-most-wanted-lyrics
+nigga : 6
+
+bitch : 0
+
+num_words : 589
+
+song: http://rapgenius.com/2pac-2-people-with-1-wish-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 79
+
+song: http://rapgenius.com/2pac-4-my-niggaz-lyrics
+nigga : 17
+
+bitch : 7
+
+num_words : 682
+
+song: http://rapgenius.com/Ant-banks-4-tha-hustlas-lyrics
+nigga : 4
+
+bitch : 1
+
+num_words : 582
+
+song: http://rapgenius.com/2pac-5-deadly-venomz-lyrics
+nigga : 10
+
+bitch : 1
+
+num_words : 985
+
+song: http://rapgenius.com/2pac-against-all-odds-lyrics
+nigga : 21
+
+bitch : 6
+
+num_words : 858
+
+song: http://rapgenius.com/2pac-aint-hard-2-find-lyrics
+nigga : 10
+
+bitch : 3
+
+num_words : 753
+
+song: http://rapgenius.com/2pac-aint-hard-to-find-lyrics
+nigga : 11
+
+bitch : 4
+
+num_words : 791
+
+song: http://rapgenius.com/2pac-all-about-u-lyrics
+nigga : 6
+
+bitch : 8
+
+num_words : 719
+
+song: http://rapgenius.com/2pac-all-eyez-on-me-lyrics
+nigga : 23
+
+bitch : 3
+
+num_words : 945
+
+song: http://rapgenius.com/2pac-all-out-lyrics
+nigga : 17
+
+bitch : 3
+
+num_words : 877
+
+song: http://rapgenius.com/2pac-ambition-over-adversity-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 25
+
+song: http://rapgenius.com/2pac-ambitionz-az-a-ridah-lyrics
+nigga : 12
+
+bitch : 9
+
+num_words : 779
+
+song: http://rapgenius.com/2pac-am-i-next-lyrics
+nigga : 4
+
+bitch : 5
+
+num_words : 540
+
+song: http://rapgenius.com/2pac-and-2morrow-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 230
+
+song: http://rapgenius.com/Jon-b-are-you-still-down-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 572
+
+song: http://rapgenius.com/2pac-a-river-that-flows-forever-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 221
+
+Total for http://rapgenius.com/artists/2pac
+nigga : 175
+
+bitch : 55
+
+num_words : 12304
+
+B-word is used on average2.75 times per song
+n-word is used on average8.75 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Snoop-lion
+song: http://rapgenius.com/Snoop-lion-ashtrays-and-heartbreaks-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 176
+
+song: http://rapgenius.com/Bless-ashtrays-and-heartbreaks-freestyle-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 456
+
+song: http://rapgenius.com/Snoop-lion-boulevard-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 271
+
+song: http://rapgenius.com/Snoop-lion-fruit-juice-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 318
+
+song: http://rapgenius.com/Snoop-lion-get-away-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 163
+
+song: http://rapgenius.com/Snoop-lion-harder-times-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 224
+
+song: http://rapgenius.com/Snoop-lion-here-comes-the-king-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 313
+
+song: http://rapgenius.com/Madcon-is-you-with-me-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 353
+
+song: http://rapgenius.com/Snoop-lion-la-la-la-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 209
+
+song: http://rapgenius.com/Snoop-lion-lighters-up-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 313
+
+song: http://rapgenius.com/Snoop-lion-no-guns-allowed-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 315
+
+song: http://rapgenius.com/Snoop-lion-no-guns-allowed-french-version-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 323
+
+song: http://rapgenius.com/Snoop-lion-no-regrets-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 309
+
+song: http://rapgenius.com/Snoop-lion-rebel-way-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 237
+
+song: http://rapgenius.com/Eddie-murphy-redlight-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 397
+
+song: http://rapgenius.com/Snoop-lion-remedy-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 397
+
+song: http://rapgenius.com/Snoop-lion-smoke-the-weed-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 445
+
+song: http://rapgenius.com/Bob-so-blowed-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 229
+
+song: http://rapgenius.com/Snoop-lion-so-long-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 168
+
+song: http://rapgenius.com/Big-sean-story-by-snoop-lion-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 274
+
+Total for http://rapgenius.com/artists/Snoop-lion
+nigga : 0
+
+bitch : 0
+
+num_words : 5890
+
+B-word is used on average0 times per song
+n-word is used on average0 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Dr-dre
+song: http://rapgenius.com/Dr-dre-187-deep-cover-remix-lyrics
+nigga : 6
+
+bitch : 0
+
+num_words : 648
+
+song: http://rapgenius.com/Eazy-e-2-hard-muthas-lyrics
+nigga : 7
+
+bitch : 4
+
+num_words : 724
+
+song: http://rapgenius.com/Jay-z-30-something-lyrics
+nigga : 6
+
+bitch : 0
+
+num_words : 716
+
+song: http://rapgenius.com/Eminem-3-am-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 581
+
+song: http://rapgenius.com/Rick-ross-3-kings-lyrics
+nigga : 10
+
+bitch : 3
+
+num_words : 690
+
+song: http://rapgenius.com/Rick-ross-3-kings-french-version-lyrics
+nigga : 10
+
+bitch : 3
+
+num_words : 692
+
+song: http://rapgenius.com/Raekwon-about-me-lyrics
+nigga : 11
+
+bitch : 0
+
+num_words : 586
+
+song: http://rapgenius.com/Raekwon-about-me-original-lyrics
+nigga : 9
+
+bitch : 0
+
+num_words : 576
+
+song: http://rapgenius.com/Dr-dre-ackrite-lyrics
+nigga : 10
+
+bitch : 4
+
+num_words : 641
+
+song: http://rapgenius.com/The-lady-of-rage-afro-puffs-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 661
+
+song: http://rapgenius.com/Rakim-after-you-die-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 360
+
+song: http://rapgenius.com/Snoop-dogg-aint-no-fun-if-the-homies-cant-have-none-lyrics
+nigga : 3
+
+bitch : 11
+
+num_words : 544
+
+song: http://rapgenius.com/Snoop-dogg-aint-no-fun-if-the-homies-cant-have-none-french-version-lyrics
+nigga : 3
+
+bitch : 11
+
+num_words : 549
+
+song: http://rapgenius.com/Dr-dre-a-nigga-witta-gun-lyrics
+nigga : 13
+
+bitch : 0
+
+num_words : 522
+
+song: http://rapgenius.com/Eminem-ass-like-that-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 727
+
+song: http://rapgenius.com/Slim-the-mobster-back-against-the-wall-lyrics
+nigga : 4
+
+bitch : 0
+
+num_words : 404
+
+song: http://rapgenius.com/50-cent-back-down-lyrics
+nigga : 10
+
+bitch : 2
+
+num_words : 621
+
+song: http://rapgenius.com/Dr-dre-bad-guys-always-die-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 717
+
+song: http://rapgenius.com/Dr-dre-bad-intentions-lyrics
+nigga : 2
+
+bitch : 5
+
+num_words : 418
+
+song: http://rapgenius.com/Eminem-bagpipes-from-baghdad-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 607
+
+Total for http://rapgenius.com/artists/Dr-dre
+nigga : 104
+
+bitch : 43
+
+num_words : 11984
+
+B-word is used on average2.15 times per song
+n-word is used on average5.2 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$ ./main.py http://rapgenius.com/artists/Rakim
+song: http://rapgenius.com/Rakim-18th-letter-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 433
+
+song: http://rapgenius.com/Truth-hurts-addictive-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 471
+
+song: http://rapgenius.com/Rakim-after-you-die-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 360
+
+song: http://rapgenius.com/Rakim-all-night-long-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 503
+
+song: http://rapgenius.com/Rakim-as-the-rhyme-goes-on-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 642
+
+song: http://rapgenius.com/Rakim-bring-it-on-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 526
+
+song: http://rapgenius.com/Wu-tang-clan-brooklyns-business-lyrics
+nigga : 12
+
+bitch : 0
+
+num_words : 1134
+
+song: http://rapgenius.com/Rakim-casualties-of-war-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 584
+
+song: http://rapgenius.com/Kanye-west-classic-nike-air-force-remix-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 659
+
+song: http://rapgenius.com/Bob-marley-concrete-jungle-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 313
+
+song: http://rapgenius.com/Rakim-dedicated-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 526
+
+song: http://rapgenius.com/Rakim-documentary-of-a-gangsta-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 553
+
+song: http://rapgenius.com/Rakim-dont-sweat-the-technique-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 344
+
+song: http://rapgenius.com/Rakim-eric-b-is-president-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 390
+
+song: http://rapgenius.com/Rakim-euphoria-lyrics
+nigga : 4
+
+bitch : 0
+
+num_words : 743
+
+song: http://rapgenius.com/Rakim-finest-ones-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 656
+
+song: http://rapgenius.com/Rakim-flow-forever-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 448
+
+song: http://rapgenius.com/Rakim-follow-the-leader-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 852
+
+song: http://rapgenius.com/Rakim-freestyle-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 136
+
+song: http://rapgenius.com/Shaquille-oneal-game-of-death-lyrics
+nigga : 0
+
+bitch : 0
+
+num_words : 490
+
+Total for http://rapgenius.com/artists/Rakim
+nigga : 16
+
+bitch : 0
+
+num_words : 10763
+
+B-word is used on average0 times per song
+n-word is used on average0.8 times per song
+Julies-MacBook-Pro-2:saymyname julielavoie$
