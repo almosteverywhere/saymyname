@@ -12,7 +12,8 @@ if __name__ == '__main__':
     if sys.argv[1:]:
         url = sys.argv[1]
         # print url
-        reckoning(url)
+    get_song_files()
+    # reckoning(url)
 # take stuff from command-line arguments to make it easier to test
 
 # text = parse_text("http://rapgenius.com/A-ap-rocky-fuckin-problems-lyrics")

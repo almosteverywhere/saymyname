@@ -3,41 +3,100 @@
 import urllib2
 from bs4 import BeautifulSoup
 import re
+import os
 from decimal import Decimal
 
-base_url = "http://rapgenius.com"
+base_url = "file:///Users/julielavoie/PycharmProjects/saymyname/files"
+basedir = "/Users/julielavoie/PycharmProjects/saymyname/files/"
 link = "http://rapgenius.com/artists/A-ap-rocky"
+file = basedir + "Dead-prez/Dead-prez-the-hood-lyrics.html"
+default_artist = "Kanye-west"
+default_dir = basedir + default_artist
 
-# given the artist's url, return the list of song urls
-def generate_song_urls(artist_url):
 
-    song_urls = []
+# Given an artist name, return a list of all song files
+# for now, we'll give like Kanye-west
+def get_file_list(artist_name=default_artist):
+    allfiles = []
+    dir = basedir + artist_name
+    filenames = os.listdir(dir)
+    for f in filenames:
+            allfiles.append(os.path.join(dir,f))
+    return allfiles
 
-    page = urllib2.urlopen(link).read()
+####
+# def printdir(dir):
+#   filenames = os.listdir(dir)
+#   for filename in filenames:
+#     print filename  ## foo.txt
+#     print os.path.join(dir, filename) ## dir/foo.txt (relative to current dir)
+#     print os.path.abspath(os.path.join(dir, filename)) ## /home/nick/dir/foo.txt
+#
+####
+
+# given a file containing one song, return the lyrics as a string
+def get_lyrics(file):
+    f = open(file, 'r')
+    page = f.read()
+    # page = urllib2.urlopen(song_url).read()
     soup = BeautifulSoup(page)
     soup.prettify()
-    mylist = soup.select("ul.song_list a")
-
-    # ok super ghetto must be faster
-    for i in mylist:
-        song_urls.append(base_url + i['href'])
-
-    for url in song_urls[:2]:
-        print url
-    print "returning list of urls"
-    return song_urls[:2]
-
-# given a song url, return the lyrics as a string
-def get_lyrics(song_url):
-    page = urllib2.urlopen(song_url).read()
-    soup = BeautifulSoup(page)
-    soup.prettify()
-    # this gets the lyrics, but a lot of it is link text and is a huge mess
     lyrics = soup.select(".lyrics")
     lyrics_string = lyrics[0].text
     lyrics_string = re.sub("\n", " ", lyrics_string)
-
     return lyrics_string
+
+# given some lyrics, count the stuff that we want, return the numbers for that song
+
+
+# given some numbers, summarize stuff
+
+# given an artist name (or directory name), collect the stats
+
+
+
+
+# # given the artist's url, return the list of song urls
+# def generate_song_urls(artist_url):
+#
+#     song_urls = []
+#
+#     page = urllib2.urlopen(link).read()
+#     soup = BeautifulSoup(page)
+#     soup.prettify()
+#     mylist = soup.select("ul.song_list a")
+#
+#     # ok super ghetto must be faster
+#     for i in mylist:
+#         song_urls.append(base_url + i['href'])
+#
+#     for url in song_urls[:2]:
+#         print url
+#     print "returning list of urls"
+#     return song_urls[:2]
+
+# ok, this needs to open a directory and read a list of files instead
+# then append the base url. or we could just open songs
+
+def generate_song_urls(artist):
+    song_urls = []
+    # open that artist directory
+    # read the list of files
+    # return song_urls
+
+
+
+# # given a song url, return the lyrics as a string
+# def get_lyrics(song_url):
+#     page = urllib2.urlopen(song_url).read()
+#     soup = BeautifulSoup(page)
+#     soup.prettify()
+#     # this gets the lyrics, but a lot of it is link text and is a huge mess
+#     lyrics = soup.select(".lyrics")
+#     lyrics_string = lyrics[0].text
+#     lyrics_string = re.sub("\n", " ", lyrics_string)
+#
+#     return lyrics_string
 
 # given an artist page with a bunch of links, return urls
 def get_song_urls(url="http://rapgenius.com/artists/A-ap-rocky"):
