@@ -1,3 +1,24 @@
+# # given the artist's url, return the list of song urls
+# def generate_song_urls(artist_url):
+#
+#     song_urls = []
+#
+#     page = urllib2.urlopen(link).read()
+#     soup = BeautifulSoup(page)
+#     soup.prettify()
+#     mylist = soup.select("ul.song_list a")
+#
+#     # ok super ghetto must be faster
+#     for i in mylist:
+#         song_urls.append(base_url + i['href'])
+#
+#     for url in song_urls[:2]:
+#         print url
+#     print "returning list of urls"
+#     return song_urls[:2]
+
+
+
 http://rapgenius.com/songs?for_artist_page=126&id=Rakim&lyrics_seo=false&page=1&pagination=false&search%5Bby_artist%5D=126&search%5Bunexplained_songs_last%5D=title
 http://rapgenius.com/songs?for_artist_page=126&id=Rakim&lyrics_seo=false&page=6&pagination=true&search%5Bby_artist%5D=126&search%5Bunexplained_songs_last%5D=title
 
