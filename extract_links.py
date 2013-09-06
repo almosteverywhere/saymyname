@@ -12,27 +12,19 @@ link = "http://rapgenius.com/artists/A-ap-rocky"
 file = basedir + "Dead-prez/Dead-prez-the-hood-lyrics.html"
 default_artist = "Kanye-west"
 default_dir = basedir + default_artist
+bad_words=['bitch', 'nigga', 'fuck', 'pussy']
 
 
 # Given an artist name, return a list of all song files
 # for now, we'll give like Kanye-west
 def get_file_list(artist_name=default_artist):
+    # print "ARTIST NAME" + artist_name
     allfiles = []
     dir = basedir + artist_name
     filenames = os.listdir(dir)
     for f in filenames:
             allfiles.append(os.path.join(dir,f))
     return allfiles
-
-####
-# def printdir(dir):
-#   filenames = os.listdir(dir)
-#   for filename in filenames:
-#     print filename  ## foo.txt
-#     print os.path.join(dir, filename) ## dir/foo.txt (relative to current dir)
-#     print os.path.abspath(os.path.join(dir, filename)) ## /home/nick/dir/foo.txt
-#
-####
 
 # given a file containing one song, return the lyrics as a string
 def get_lyrics(file):
@@ -42,19 +34,12 @@ def get_lyrics(file):
     soup = BeautifulSoup(page)
     soup.prettify()
     lyrics = soup.select(".lyrics")
-    lyrics_string = lyrics[0].text
-    lyrics_string = re.sub("\n", " ", lyrics_string)
-    return lyrics_string
-
-# given some lyrics, count the stuff that we want, return the numbers for that song
-
-
-# given some numbers, summarize stuff
-
-# given an artist name (or directory name), collect the stats
-
-
-
+    if lyrics:
+        lyrics_string = lyrics[0].text
+        lyrics_string = re.sub("\n", " ", lyrics_string)
+        return lyrics_string
+    else:
+        return ""
 
 # # given the artist's url, return the list of song urls
 # def generate_song_urls(artist_url):
@@ -75,108 +60,27 @@ def get_lyrics(file):
 #     print "returning list of urls"
 #     return song_urls[:2]
 
-# ok, this needs to open a directory and read a list of files instead
-# then append the base url. or we could just open songs
-
-def generate_song_urls(artist):
-    song_urls = []
-    # open that artist directory
-    # read the list of files
-    # return song_urls
-
-
-
-# # given a song url, return the lyrics as a string
-# def get_lyrics(song_url):
-#     page = urllib2.urlopen(song_url).read()
-#     soup = BeautifulSoup(page)
-#     soup.prettify()
-#     # this gets the lyrics, but a lot of it is link text and is a huge mess
-#     lyrics = soup.select(".lyrics")
-#     lyrics_string = lyrics[0].text
-#     lyrics_string = re.sub("\n", " ", lyrics_string)
-#
-#     return lyrics_string
-
-# given an artist page with a bunch of links, return urls
-def get_song_urls(url="http://rapgenius.com/artists/A-ap-rocky"):
-    urls = []
-    page = urllib2.urlopen(url).read()
-    soup = BeautifulSoup(page)
-    soup.prettify()
-    songlist = soup.select("ul.song_list")
-    # gives you all links in the first page of all songs
-    list = songlist[1].select("a")
-    for i in list:
-        urls.append(base_url + i['href'])
-
-    return urls
-    # oh crap, it does a scroll down thing to load more song titles
-    # ok, let's do the first page as a sample, and then we can figure out
-    # what to do for pagination, we can use net console to figure out
-    # what url the ajax is requesting to
-
-# given an ajax url, in the files directory, get the list of all songs
-# by that artist, and save the lyrics for all the songs in
-# ./artist/song so we can do data analysis at our leisure
-# given an artist page with a bunch of links, return urls
-# enormous asap rocky url=http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page=1&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=titlelis
-# for a given artist, gives us the first 10 pages of song urls
-def get_song_urls_defeat_ajax(base_url):
-
-    all_urls = []
-
-    artist_url1 = "http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page="
-    num = 1
-    artist_url2 = "&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=title"
-    # we ignore past 10 pages
-
-    for i in range(1,10):
-        all_urls.append(artist_url1 + str(i) + artist_url2)
-
-    urls = []
-    list = []
-
-    # ok, now this is super ghetto, we look at each of these pages, and check
-    # check when ul.song_list is empty.
-    for url in all_urls[8:]:
-        page = urllib2.urlopen(url).read()
-        soup = BeautifulSoup(page)
-        soup.prettify()
-        # in the ajax version, songs come in groups of 20 there
-        # are many ul.song_list in a page, with a group of 20 songs
-        # ok this is disgusting, but this is how we're going to cycle through the list
-        # of songs.
-        songlist = soup.select("ul.song_list a")
-        for link in songlist:
-            urls.append(base_url + link['href'])
-    return urls
-
-
 
 # bad words no one shoudl say, but there you go
 # bad_words = ['bitch', 'nigga' ]
 
 # given some text, match the occurences of bitch, and n-word
-def count_words(lyrics, bad_words=['bitch', 'nigga']):
+def count_words(lyrics, bad_words=bad_words):
     mydict = {}
 
     for word in bad_words:
-
-        # matches = re.findall('bitch', stuff)
-        matches = re.findall(word, lyrics)
-        # print "you have " + str(len(matches)) + " " + word + " up in here"
-        # print "you have " + str(len(matches)) + " bitches up in here"
-        # mydict['bitches'] = len(matches)
-
-        mydict[word] = len(matches)
+        if word == 'ho':
+            matches = re.findall(r'\bho\b', lyrics, re.IGNORECASE)
+        else:
+            matches = re.findall(word, lyrics, re.IGNORECASE)
+        mydict[word] = len(matches) or 0
 
     # return a word count as well
-    words = lyrics.split()
-    num_words = len(words)
-    mydict['num_words'] = num_words
+    # words = lyrics.split()
+    # num_words = len(words)
+    # mydict['num_words'] = num_words
 
-    print_dict(mydict)
+    # print_dict(mydict)
     return mydict
 
 def print_dict(dict):
@@ -184,40 +88,49 @@ def print_dict(dict):
         print str(key) + " : " + str(dict[key]) + "\n"
 
 # given an artist, give the total count of bad words for all songs
-# for right now it only counts the first page of songs
-def reckoning(artist_url="http://rapgenius.com/artists/A-ap-rocky", bad_words=['bitch', 'nigga']):
+def reckoning(artist="Kanye-west", bad_words=bad_words):
 
-# ok this is super ghetto, better to get each iteration to edit the same dict
+    # ok this is super ghetto, better to get each iteration to edit the same dict
     big_dict = {}
-    big_dict['bitch'] = 0
-    big_dict['nigga'] = 0
-    big_dict['num_words'] = 0
+    for word in bad_words:
+        big_dict[word] = 0
 
-# get the list of urls:
-    url_list = get_song_urls(artist_url)
-    num_songs = len(url_list)
+    file_list = get_file_list(artist)
+    num_songs = len(file_list)
     # for u in url_list:
     #     print u
-    for u in url_list:
-        print "song: " + u
-        lyrics = get_lyrics(u)
+    for f in file_list:
+        # print "song: " + f
+        lyrics = get_lyrics(f)
         small_dict = count_words(lyrics)
-        big_dict['bitch'] += (0 or small_dict['bitch'])
-        big_dict['nigga'] += (0 or small_dict['nigga'])
-        big_dict['num_words'] += (0 or small_dict['num_words'])
-        # print "now we have " + str(big_dict['bitch']) + " bitches"
-        # print "now we have " + str(big_dict['nigga']) + " niggas"
+
+        for word in bad_words:
+            # print word
+            # print word
+            big_dict[word] += (0 or small_dict[word])
         small_dict = {}
 
-    print "Total for " + artist_url
-    big_dict_stats(big_dict, num_songs)
+    # print "Total for " + artist + " over " + str(num_songs) + " songs:"
+    # big_dict_stats(big_dict, num_songs)
+    big_dict['num_songs'] = num_songs
+    return big_dict
+
+# do all the artist and put in a big dictionary
+def get_results(dir='/Users/julielavoie/PycharmProjects/saymyname/files'):
+    results = {}
+    artists = os.listdir(dir)
+    for artist in artists:
+        results[artist] = reckoning(artist)
+    return results
+
 
 def big_dict_stats(dict, num_songs):
     print_dict(dict)
-    p_b = Decimal(dict['bitch']) / Decimal(num_songs)
-    p_n = Decimal(dict['nigga']) / Decimal(num_songs)
-    print "B-word is used on average" + str(p_b) + " times per song"
-    print "n-word is used on average" + str(p_n) + " times per song"
+
+    for word in dict:
+        average = float(dict[word]) / float(num_songs)
+        average = "%.2f" % average
+        print word + " is used on average " + str(average) + " times per song."
 
 # stats we want:
 # per total words

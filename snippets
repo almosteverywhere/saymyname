@@ -5,3 +5,90 @@ http://rapgenius.com/songs?for_artist_page=126&id=Rakim&lyrics_seo=false&page=6&
 ah, but how do you know this url? for that artist?
 
 25 rappers?
+
+
+# given an artist page with a bunch of links, return urls
+def get_song_urls(url="http://rapgenius.com/artists/A-ap-rocky"):
+    urls = []
+    page = urllib2.urlopen(url).read()
+    soup = BeautifulSoup(page)
+    soup.prettify()
+    songlist = soup.select("ul.song_list")
+    # gives you all links in the first page of all songs
+    list = songlist[1].select("a")
+    for i in list:
+        urls.append(base_url + i['href'])
+
+    return urls
+    # oh crap, it does a scroll down thing to load more song titles
+    # ok, let's do the first page as a sample, and then we can figure out
+    # what to do for pagination, we can use net console to figure out
+    # what url the ajax is requesting to
+
+given an ajax url, in the files directory, get the list of all songs
+# by that artist, and save the lyrics for all the songs in
+# ./artist/song so we can do data analysis at our leisure
+# given an artist page with a bunch of links, return urls
+# enormous asap rocky url=http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page=1&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=titlelis
+# for a given artist, gives us the first 10 pages of song urls
+def get_song_urls_defeat_ajax(base_url):
+
+    all_urls = []
+
+    artist_url1 = "http://rapgenius.com/songs?for_artist_page=12417&id=A-ap-rocky&lyrics_seo=false&page="
+    num = 1
+    artist_url2 = "&pagination=false&search[by_artist]=12417&search[unexplained_songs_last]=title"
+    # we ignore past 10 pages
+
+    for i in range(1,10):
+        all_urls.append(artist_url1 + str(i) + artist_url2)
+
+    urls = []
+    list = []
+
+    # ok, now this is super ghetto, we look at each of these pages, and check
+    # check when ul.song_list is empty.
+    for url in all_urls[8:]:
+        page = urllib2.urlopen(url).read()
+        soup = BeautifulSoup(page)
+        soup.prettify()
+        # in the ajax version, songs come in groups of 20 there
+        # are many ul.song_list in a page, with a group of 20 songs
+        # ok this is disgusting, but this is how we're going to cycle through the list
+        # of songs.
+        songlist = soup.select("ul.song_list a")
+        for link in songlist:
+            urls.append(base_url + link['href'])
+    return urls
+
+
+# given an artist, give the total count of bad words for all songs
+# for right now it only counts the first page of songs
+def reckoning(artist="Kanye-west", bad_words=bad_words):
+
+# ok this is super ghetto, better to get each iteration to edit the same dict
+big_dict = {}
+for word in bad_words:
+    big_dict[word] = 0
+
+for key in big_dict.keys():
+    print big_dict[key]
+
+# get the list of urls:
+#     url_list = get_song_urls(artist_url)
+file_list = get_file_list(artist)
+num_songs = len(file_list)
+# for u in url_list:
+#     print u
+for f in file_list:
+    print "song: " + f
+    lyrics = get_lyrics(f)
+    small_dict = count_words(lyrics)
+
+    for word in bad_words:
+        big_dict[word] += (0 or small_dict[word])
+
+    small_dict = {}
+
+print "Total for " + artist
+big_dict_stats(big_dict, num_songs)
