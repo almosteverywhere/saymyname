@@ -10,7 +10,7 @@ basedir = "/Users/julielavoie/PycharmProjects/saymyname/files/"
 default_artist = "Kanye-west"
 default_dir = basedir + default_artist
 # bad_words=['bitch', 'nigga', 'fuck', 'pussy']
-bad_words = ['bitch', 'dick', 'nigga']
+bad_words = ['bitch', 'dick', 'nigga', 'ho']
 
 # Given an artist name, return a list of all song files
 # files are organized as files/artist-name/{song1,song2}...
@@ -45,7 +45,7 @@ def count_words(lyrics, bad_words=bad_words):
 
     for word in bad_words:
         if word == 'ho':
-            matches = re.findall(r'\bho\b', lyrics, re.IGNORECASE)
+            matches = re.findall(r'\bhoe?s?\b', lyrics, re.IGNORECASE)
         else:
             matches = re.findall(word, lyrics, re.IGNORECASE)
         mydict[word] = len(matches) or 0
