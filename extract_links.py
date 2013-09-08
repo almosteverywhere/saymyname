@@ -59,11 +59,18 @@ def print_dict(dict):
 
 # given an artist, give the total count of bad words for all songs
 def count_em_up(artist="Kanye-west", bad_words=bad_words):
+    max_song_key = ""
+    max_num_key = ""
 
-    # FIXME: ok this is super ghetto, better to get each iteration to edit the same dict
-    big_dict = {}
+    artist_dict = {}
     for word in bad_words:
-        big_dict[word] = 0
+        # FIXME we should probably be using json
+        # max_song_key = "max_" + word + "_song"
+        # max_num_key =  "max" + word + "_num"
+        artist_dict[word] = 0
+        # artist_dict[max_num_key] = 0
+        # artist_dict[max_song_key] = ""
+
 
     file_list = get_song_list(artist)
     num_songs = len(file_list)
@@ -73,14 +80,15 @@ def count_em_up(artist="Kanye-west", bad_words=bad_words):
         small_dict = count_words(lyrics)
 
         for word in bad_words:
-            big_dict[word] += (0 or small_dict[word])
+            artist_dict[word] += (0 or small_dict[word])
+
         # need to reset the small dict
         small_dict = {}
 
     # print "Total for " + artist + " over " + str(num_songs) + " songs:"
     # big_dict_stats(big_dict, num_songs)
-    big_dict['num_songs'] = num_songs
-    return big_dict
+    artist_dict['num_songs'] = num_songs
+    return artist_dict
 
 # do all the artists and put in a big dictionary
 def get_all_artists(dir='/Users/julielavoie/PycharmProjects/saymyname/files'):
@@ -90,6 +98,16 @@ def get_all_artists(dir='/Users/julielavoie/PycharmProjects/saymyname/files'):
         print "Artist " + artist
         results[artist] = count_em_up(artist)
     return results
+
+def calculate_average(dict, bad_word):
+    total_words = 0
+    total_songs = 0
+    for i in dict.keys():
+            total_words += dict[i][bad_word]
+            total_songs += dict[i]['num_songs']
+    average = float(total_words)/ float(total_songs)
+    return (average, total_words, total_songs)
+
 
 def big_dict_stats(dict, num_songs):
     print_dict(dict)
