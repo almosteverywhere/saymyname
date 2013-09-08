@@ -108,6 +108,22 @@ def calculate_average(dict, bad_word):
     average = float(total_words)/ float(total_songs)
     return (average, total_words, total_songs)
 
+def slice_dict(dict, keys=[]):
+    # holy fuck this is some magic ish
+    # new_dict = itemgetter(*keys)(results)
+    # oh, doesn't work, returns a tuple.
+    return new_dict
+
+def sliced_average(dict, bad_word, keys=()):
+    total_words = 0
+    total_songs = 0
+    for i in keys:
+            total_words += dict[i][bad_word]
+            total_songs += dict[i]['num_songs']
+    average = float(total_words)/ float(total_songs)
+    return (average, total_words, total_songs)
+
+
 
 def big_dict_stats(dict, num_songs):
     print_dict(dict)
