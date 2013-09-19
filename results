@@ -1,3 +1,142 @@
+('lil-jon', {'dick': 28, 'nigga': 480, 'bitch': 378, 'num_songs': 39, 'ho': 143})average:9.69230769231
+('foxy-brown', {'dick': 25, 'nigga': 370, 'bitch': 262, 'num_songs': 63, 'ho': 29})average:4.15873015873
+('lil-kim', {'dick': 38, 'nigga': 212, 'bitch': 234, 'num_songs': 51, 'ho': 29})average:4.58823529412
+('lil-wayne', {'dick': 69, 'nigga': 417, 'bitch': 320, 'num_songs': 68, 'ho': 137})average:4.70588235294
+('tyga', {'dick': 72, 'nigga': 358, 'bitch': 331, 'num_songs': 81, 'ho': 58})average:4.08641975309
+('snoop-dogg', {'dick': 23, 'nigga': 320, 'bitch': 141, 'num_songs': 45, 'ho': 56})average:3.13333333333
+('nwa', {'dick': 89, 'nigga': 362, 'bitch': 192, 'num_songs': 49, 'ho': 45})average:3.91836734694
+('asap-rocky', {'dick': 61, 'nigga': 830, 'bitch': 489, 'num_songs': 131, 'ho': 125})average:3.73282442748
+('dr-dre', {'dick': 27, 'nigga': 181, 'bitch': 97, 'num_songs': 25, 'ho': 55})average:3.88
+('ti', {'dick': 20, 'nigga': 515, 'bitch': 167, 'num_songs': 55, 'ho': 140})average:3.03636363636
+('nicki-minaj', {'dick': 23, 'nigga': 104, 'bitch': 260, 'num_songs': 67, 'ho': 31})average:3.88059701493
+('kendrick-lamar', {'dick': 34, 'nigga': 464, 'bitch': 285, 'num_songs': 128, 'ho': 94})average:2.2265625
+('2pac', {'dick': 25, 'nigga': 749, 'bitch': 205, 'num_songs': 83, 'ho': 47})average:2.46987951807
+('2-chainz', {'dick': 11, 'nigga': 230, 'bitch': 145, 'num_songs': 60, 'ho': 70})average:2.41666666667
+('50cent', {'dick': 25, 'nigga': 641, 'bitch': 244, 'num_songs': 95, 'ho': 43})average:2.56842105263
+('biggie', {'dick': 62, 'nigga': 500, 'bitch': 226, 'num_songs': 79, 'ho': 75})average:2.86075949367
+('ludacris', {'dick': 22, 'nigga': 258, 'bitch': 112, 'num_songs': 71, 'ho': 186})average:1.57746478873
+('jcole', {'dick': 13, 'nigga': 790, 'bitch': 126, 'num_songs': 75, 'ho': 67})average:1.68
+('wu-tang', {'dick': 42, 'nigga': 438, 'bitch': 95, 'num_songs': 94, 'ho': 35})average:1.01063829787
+('eminem', {'dick': 74, 'nigga': 69, 'bitch': 177, 'num_songs': 97, 'ho': 34})average:1.82474226804
+('jay-z', {'dick': 60, 'nigga': 1744, 'bitch': 354, 'num_songs': 348, 'ho': 147})average:1.01724137931
+('dead-prez', {'dick': 2, 'nigga': 228, 'bitch': 9, 'num_songs': 80, 'ho': 2})average:0.1125
+('talib-kweli', {'dick': 3, 'nigga': 196, 'bitch': 26, 'num_songs': 77, 'ho': 10})average:0.337662337662
+('missy-elliott', {'dick': 12, 'nigga': 66, 'bitch': 44, 'num_songs': 47, 'ho': 18})average:0.936170212766
+('beastie-boys', {'dick': 9, 'nigga': 2, 'bitch': 11, 'num_songs': 102, 'ho': 23})average:0.107843137255
+('immortal-technique', {'dick': 14, 'nigga': 254, 'bitch': 67, 'num_songs': 91, 'ho': 7})average:0.736263736264
+('nas', {'dick': 16, 'nigga': 404, 'bitch': 60, 'num_songs': 94, 'ho': 22})average:0.63829787234
+('queen-latifah', {'dick': 1, 'nigga': 16, 'bitch': 19, 'num_songs': 27, 'ho': 8})average:0.703703703704
+('outkast', {'dick': 19, 'nigga': 393, 'bitch': 92, 'num_songs': 110, 'ho': 85})average:0.836363636364
+('mc-lyte', {'dick': 3, 'nigga': 39, 'bitch': 20, 'num_songs': 70, 'ho': 25})average:0.285714285714
+('kanye-west', {'dick': 8, 'nigga': 157, 'bitch': 49, 'num_songs': 69, 'ho': 26})average:0.710144927536
+('drake', {'dick': 10, 'nigga': 263, 'bitch': 81, 'num_songs': 102, 'ho': 57})average:0.794117647059
+>>> sorted_results = sorted(results.items(),key=lambda x: (x[1]['bitch']/ x[1]['num_songs']),reverse=True)
+
+---
+
+for i in nword_results:
+...     print str(i) + "average:" + str(float(i[1]['nigga']) / float(i[1]['num_songs']))
+... 
+('lil-jon', {'dick': 28, 'nigga': 480, 'bitch': 378, 'num_songs': 39, 'ho': 143})average:12.3076923077
+('jcole', {'dick': 13, 'nigga': 790, 'bitch': 126, 'num_songs': 75, 'ho': 67})average:10.5333333333
+('2pac', {'dick': 25, 'nigga': 749, 'bitch': 205, 'num_songs': 83, 'ho': 47})average:9.02409638554
+('ti', {'dick': 20, 'nigga': 515, 'bitch': 167, 'num_songs': 55, 'ho': 140})average:9.36363636364
+('snoop-dogg', {'dick': 23, 'nigga': 320, 'bitch': 141, 'num_songs': 45, 'ho': 56})average:7.11111111111
+('nwa', {'dick': 89, 'nigga': 362, 'bitch': 192, 'num_songs': 49, 'ho': 45})average:7.38775510204
+('dr-dre', {'dick': 27, 'nigga': 181, 'bitch': 97, 'num_songs': 25, 'ho': 55})average:7.24
+('asap-rocky', {'dick': 61, 'nigga': 830, 'bitch': 489, 'num_songs': 131, 'ho': 125})average:6.3358778626
+('lil-wayne', {'dick': 69, 'nigga': 417, 'bitch': 320, 'num_songs': 68, 'ho': 137})average:6.13235294118
+('50cent', {'dick': 25, 'nigga': 641, 'bitch': 244, 'num_songs': 95, 'ho': 43})average:6.74736842105
+('biggie', {'dick': 62, 'nigga': 500, 'bitch': 226, 'num_songs': 79, 'ho': 75})average:6.32911392405
+('foxy-brown', {'dick': 25, 'nigga': 370, 'bitch': 262, 'num_songs': 63, 'ho': 29})average:5.87301587302
+('jay-z', {'dick': 60, 'nigga': 1744, 'bitch': 354, 'num_songs': 348, 'ho': 147})average:5.01149425287
+('lil-kim', {'dick': 38, 'nigga': 212, 'bitch': 234, 'num_songs': 51, 'ho': 29})average:4.1568627451
+('nas', {'dick': 16, 'nigga': 404, 'bitch': 60, 'num_songs': 94, 'ho': 22})average:4.29787234043
+('wu-tang', {'dick': 42, 'nigga': 438, 'bitch': 95, 'num_songs': 94, 'ho': 35})average:4.65957446809
+('tyga', {'dick': 72, 'nigga': 358, 'bitch': 331, 'num_songs': 81, 'ho': 58})average:4.41975308642
+('ludacris', {'dick': 22, 'nigga': 258, 'bitch': 112, 'num_songs': 71, 'ho': 186})average:3.6338028169
+('kendrick-lamar', {'dick': 34, 'nigga': 464, 'bitch': 285, 'num_songs': 128, 'ho': 94})average:3.625
+('2-chainz', {'dick': 11, 'nigga': 230, 'bitch': 145, 'num_songs': 60, 'ho': 70})average:3.83333333333
+('outkast', {'dick': 19, 'nigga': 393, 'bitch': 92, 'num_songs': 110, 'ho': 85})average:3.57272727273
+('dead-prez', {'dick': 2, 'nigga': 228, 'bitch': 9, 'num_songs': 80, 'ho': 2})average:2.85
+('talib-kweli', {'dick': 3, 'nigga': 196, 'bitch': 26, 'num_songs': 77, 'ho': 10})average:2.54545454545
+('immortal-technique', {'dick': 14, 'nigga': 254, 'bitch': 67, 'num_songs': 91, 'ho': 7})average:2.79120879121
+('kanye-west', {'dick': 8, 'nigga': 157, 'bitch': 49, 'num_songs': 69, 'ho': 26})average:2.27536231884
+('drake', {'dick': 10, 'nigga': 263, 'bitch': 81, 'num_songs': 102, 'ho': 57})average:2.57843137255
+('missy-elliott', {'dick': 12, 'nigga': 66, 'bitch': 44, 'num_songs': 47, 'ho': 18})average:1.40425531915
+('nicki-minaj', {'dick': 23, 'nigga': 104, 'bitch': 260, 'num_songs': 67, 'ho': 31})average:1.55223880597
+('beastie-boys', {'dick': 9, 'nigga': 2, 'bitch': 11, 'num_songs': 102, 'ho': 23})average:0.0196078431373
+('queen-latifah', {'dick': 1, 'nigga': 16, 'bitch': 19, 'num_songs': 27, 'ho': 8})average:0.592592592593
+('eminem', {'dick': 74, 'nigga': 69, 'bitch': 177, 'num_songs': 97, 'ho': 34})average:0.711340206186
+('mc-lyte', {'dick': 3, 'nigga': 39, 'bitch': 20, 'num_songs': 70, 'ho': 25})average:0.557142857143
+------
+total_bitches
+5318
+>>> total_songs
+2673
+>>> float(total_bitches) / float(total_songs)
+1.9895248784137674
+------------------------
+all
+
+extract_links.calculate_average(results, 'bitch')
+(1.9895248784137674, 5318, 2673)
+>>> extract_links.calculate_average(results, 'nigga')
+(4.508043396932286, 12050, 2673)
+--------
+dirty_south
+dirty_south_artists = ('2-chainz', 'lil-jon', 'lil-wayne', 'ludacris', 'outkast', 'ti')
+>>> extract_links.sliced_average(results, "bitch", dirty_south_artists)
+(3.0124069478908186, 1214, 403)
+----------------
+
+women = ('lil-kim', 'queen-latifah', 'missy-elliott', 'nicki-minaj', 'foxy-brown')
+>>> extract_links.sliced_average(results, "bitch", women)
+(3.211764705882353, 819, 255)
+
+------
+east_coast = ('dead-prez', 'biggie', 'beastie-boys', 'foxy-brown', 'jay-z', 'mc-lyte', 'nas', 'wu-tang', 'talib-kweli', 'immortal-technique', 'missy-elliott', 'lil-kim', 'asap-rocky')
+>>> extract_links.sliced_average(results, "bitch", east_coast)                                                     
+(1.429540316503391, 1897, 1327)
+
+east_coast = ('dead-prez', 'biggie', 'beastie-boys', 'foxy-brown', 'jay-z', 'mc-lyte', 'nas', 'wu-tang', 'talib-kweli', 'immortal-technique', 'missy-elliott', 'lil-kim', 'asap-rocky', 'queen-latifah')
+>>> extract_links.sliced_average(results, "bitch", east_coast)                                                     
+(1.41506646971935, 1916, 1354)
+
+east_coast = ('dead-prez', 'biggie', 'beastie-boys', 'foxy-brown', 'jay-z', 'mc-lyte', 'nas', 'wu-tang', 'talib-kweli', 'immortal-technique', 'missy-elliott', 'lil-kim', 'asap-rocky', 'queen-latifah', 'nicki-minaj')
+>>> extract_links.sliced_average(results, "bitch", east_coast)                                                     (1.5313159746657283, 2176, 1421)
+
+-----
+
+>>> west_coast = ('snoop-dogg', 'dr-dre', 'tyga', '2pac', 'nwa', 'kendrick-lamar')
+>>> extract_links.sliced_average(results, "bitch", west_coast)
+(3.0437956204379564, 1251, 411)
+--------
+
+social = ('dead-prez', 'nas', 'wu-tang', 'talib-kweli', 'immortal-technique', 'queen-latifah') 
+>>> extract_links.sliced_average(results, "bitch", social)
+(0.5961123110151187, 276, 463)
+
+-----------------
+
+extract_links.sliced_average(results, "nigga", east_coast)                                                     
+(3.8022519352568613, 5403, 1421)
+>>> extract_links.sliced_average(results, "nigga", west_coast)
+(5.922141119221411, 2434, 411)
+>>> extract_links.sliced_average(results, "nigga", dirty_south_artists)
+(5.689826302729529, 2293, 403)
+>>> extract_links.sliced_average(results, "nigga", women)
+(3.011764705882353, 768, 255)
+>>> extract_links.sliced_average(results, "nigga", social)
+(3.3174946004319654, 1536, 463)
+>>> extract_links.calculate_average(results, "nigga")
+(4.508043396932286, 12050, 2673)
+
+
+
+
+
+
 ----------------------------------
 Total for lil-jon over 39 songs:
 pussy : 49
