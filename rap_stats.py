@@ -117,7 +117,7 @@ def make_stats(dict):
     return results    
 
 # get the results dict, print out the stats to a file
-def print_raw_stats(results, results_file="results.txt"):
+def print_stats(results, results_file="results.txt"):
     f = open(results_file, "w")
     for artist in results.keys():
         f.write("Artist: %s\n" % artist)
@@ -126,6 +126,27 @@ def print_raw_stats(results, results_file="results.txt"):
         f.write("\n\n")   
     f.close()
 
+# key tells us what to sort on
+def get_sorted_stats(results, mykey):
+    # f = open("results_sorted.txt", "w")
+    sorted_stats = sorted(results.items(), key=lambda x: x[1][mykey], reverse=True)
+    return sorted_stats
+
+# should be a better way to do this, it's just once the stats are sorted
+# they are put into a list instead of a dict
+def print_sorted_stats(results, mykey, results_file="results.txt"): 
+    f = open(results_file, "w")
+    myresults = get_sorted_stats(results, mykey)
+    for artist in myresults:
+        # artist[0] is the name
+        f.write("Artist: %s\n" % artist[0])
+        # print the one we care about the most first
+        f.write(mykey + " " + str(artist[1][mykey]) + " \n")
+        for key in artist[1].keys():
+            if key != mykey:
+                f.write(key + " " + str(artist[1][key]) + " \n") 
+        f.write("\n\n")   
+    f.close()
 
 
 def calculate_average(dict, bad_word):
