@@ -95,27 +95,37 @@ def make_artist_dict(artist, bad_words=bad_words):
 # given a big dict, calculate a bunch of stats and return a dict with the stats?
 # allright this is some magic shit let it be:
 # sorted_page_sequence_list = sorted(page_sequence_dict.items(), key=itemgetter(1), reverse=True)
-def print_stats(dict, results_file="results.txt"):
+def make_stats(dict):
     # ok, let's make a dict of results
     results = {}
 
-    # there must be a less retarded way to do this! 
+    # there must be a better way to do this! 
     for artist in dict.keys():
         
         num_songs = len(dict[artist])
         results[artist] = {}
-        for word in bad_words: 
+        for word in bad_words:
+            word_total = word + "_total"
+            word_avg = word + "_avg" 
             count = 0 
             for song in dict[artist].keys():
                 count += dict[artist][song][word]
-            results[artist][word] = "%.2f" % (float(count) / float(num_songs))
+            results[artist][word_avg] = "%.2f" % (float(count) / float(num_songs))
+            results[artist][word_total] = count
             # average = "%.2f" % average
         results[artist]["num_songs"] = num_songs
     return results    
-# for each artist we have to look at each word
-        # results[artist][]
-        # print artist
-        # dict[artist] is a dict of songs with counts for each
+
+# get the results dict, print out the stats to a file
+def print_raw_stats(results, results_file="results.txt"):
+    f = open(results_file, "w")
+    for artist in results.keys():
+        f.write("Artist: %s\n" % artist)
+        for key in results[artist].keys():
+            f.write(key +" " + str(results[artist][key]) + " \n")
+        f.write("\n\n")   
+    f.close()
+
 
 
 def calculate_average(dict, bad_word):
