@@ -4,11 +4,11 @@ from bs4 import BeautifulSoup
 from collections import Counter
 import re, os, sys
 
-# Where is our data
+# Where our data be at? Sorry, I couldn't help myself. 
 basedir = "/Users/julielavoie/PycharmProjects/saymyname/files/"
 default_artist = "Kanye-west"
 default_dir = basedir + default_artist
-# Excuse my language, but that's what the proj is about 
+# Pardon the swearing
 bad_words = ['bitch','ho']
 
 # Given an artist name, return a list of all song files
