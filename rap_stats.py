@@ -4,33 +4,28 @@ from bs4 import BeautifulSoup
 from collections import Counter
 import re, os, sys
 
-# where we downloaded the files to 
+# Where is our data
 basedir = "/Users/julielavoie/PycharmProjects/saymyname/files/"
 default_artist = "Kanye-west"
 default_dir = basedir + default_artist
-# yeah, excuse my language, but that's what the proj is about 
+# Excuse my language, but that's what the proj is about 
 bad_words = ['bitch','ho']
 
 # Given an artist name, return a list of all song files
 # files are organized as files/artist-name/{song1,song2}...
-# GOOD
-# IS THIS CALLED ANYWHERE????
-def get_song_list(artist_name=default_artist):
+def make_song_list(artist_name=default_artist):
     allfiles = []
     dir = basedir + artist_name
     filenames = os.listdir(dir)
     for f in filenames:
-        ##### FIXME THIS STUFFFFFFFFF
-        #### # remove .git from dir. 
             if re.search( '\.git', f):
                 continue
             else:
                 allfiles.append(os.path.join(dir,f))
     return allfiles
 
-# given a file containing one song, return the lyrics as a string
-# GOOD 
-def get_lyrics_string(file):
+# Given a file containing one song, return the lyrics as a string 
+def scrape_lyrics_from_song(file):
     f = open(file, 'r')
     page = f.read()
     # using beautiful soup to navigate the dom and get
@@ -45,10 +40,9 @@ def get_lyrics_string(file):
     else:
         return ""
 
-# given lyrics and a dict of bad words, count the occurrences
+# Given lyrics and a dict of bad words, count the occurrences
 # of each bad word and return a dictionary of results
-# RETURNS THE LYRICS FOR ONE SONGb
-def make_lyrics_dict(lyrics, bad_words=bad_words):
+def count_words_for_one_song(lyrics, bad_words=bad_words):
     mydict = {}
 
     for word in bad_words:
@@ -67,7 +61,7 @@ def print_dict(dict):
 
 # do all the artists and put in a big dictionary
 # should be call count_for_all_artists
-def make_big_dict(dir=basedir, testing=False):
+def count_for_all_artists(dir=basedir, testing=False):
     results = {}
     artists = os.listdir(dir)
     if testing:
@@ -75,40 +69,35 @@ def make_big_dict(dir=basedir, testing=False):
             if re.search('\.git', artist):
                 continue
             print "Artist " + artist
-            results[artist] = make_artist_dict(artist)    
+            results[artist] = count_for_one_artist(artist)    
     else: 
         for artist in artists:
             if re.search('\.git', artist):
                 continue
             print "Artist " + artist
-            results[artist] = make_artist_dict(artist)
+            results[artist] = count_for_one_artist(artist)
     return results
 
-# instead we could have count_em_up return a dict of the songs with the titles
-# count for one_artist
-def make_artist_dict(artist, bad_words=bad_words):
+def count_for_one_artist(artist, bad_words=bad_words):
+    
     # start with empty dictionary
-
     artist_dict = {}
     
     # get the list of all songs for artist, one song per file
-    file_list = get_song_list(artist)
-    # num_songs = len(file_list)
+    file_list = make_song_list(artist)
     for f in file_list:
         
-        lyrics = get_lyrics_string(f)
+        lyrics = scrape_lyrics_from_song(f)
         song_name = os.path.basename(f)
         # this still returns: 
         # 'Kanye-west-cant-tell-me-nothing-roc-remix-lyrics.html'
-        # what we want is count words to return a dictionary 
-        artist_dict[song_name] = Counter(make_lyrics_dict(lyrics))
+        artist_dict[song_name] = Counter(count_words_for_one_song(lyrics))
     return artist_dict
 
 # given an dict with all the counts for the artists, calculate a bunch of stats 
-# and return a dict with the stats?
-# allright this is some magic shit let it be:
-# sorted_page_sequence_list = sorted(page_sequence_dict.items(), key=itemgetter(1), reverse=True)
-def make_stats(dict):
+# and return a dict with the stats. There must be a better data structure for all
+# this stuff, maybe Pandas? 
+def make_stats_dict(dict):
     # ok, let's make a dict of results
     results = {}
 
@@ -121,6 +110,8 @@ def make_stats(dict):
             print "artist has no songs:" + artist
             continue
         results[artist] = {}
+        # for each bad word, store the total but also calculate an average
+        # over the number of songs
         for word in bad_words:
             word_total = word + "_total"
             word_avg = word + "_avg" 
@@ -134,7 +125,7 @@ def make_stats(dict):
     return results    
 
 # get the results dict, print out the stats to a file
-def print_stats(results, results_file="results.txt"):
+def print_stats_to_file(results, results_file="results.txt"):
     f = open(results_file, "w")
     for artist in results.keys():
         f.write("Artist: %s\n" % artist)
@@ -165,44 +156,14 @@ def print_sorted_stats(results, mykey, results_file="results.txt"):
         f.write("\n\n")   
     f.close()
 
-
-# def calculate_average(dict, bad_word):
-#     total_words = 0
-#     total_songs = 0
-#     for i in dict.keys():
-#             total_words += dict[i][bad_word]
-#             total_songs += dict[i]['num_songs']
-#     average = float(total_words)/ float(total_songs)
-#     return (average, total_words, total_songs)
-
-# def sliced_average(dict, bad_word, keys=()):
-#     total_words = 0
-#     total_songs = 0
-#     for i in keys:
-#             total_words += dict[i][bad_word]
-#             total_songs += dict[i]['num_songs']
-#     average = float(total_words)/ float(total_songs)
-#     return (average, total_words, total_songs)
-
-
-
-# def big_dict_stats(dict, num_songs):
-#     print_dict(dict)
-
-#     for word in dict:
-#         average = float(dict[word]) / float(num_songs)
-#         average = "%.2f" % average
-#         print word + " is used on average " + str(average) + " times per song."
-
-
 if __name__ == '__main__':
     # we can do the stats for just one artist 
     if sys.argv[1:]:
         name = sys.argv[1]
-        dict = make_artist_dict(name)
-        make_stats(dict)
+        dict = count_for_one_artist(name)
+        make_stats_dict(dict)
 
     else:
-        results = make_big_dict()
+        results = count_for_all_artists()
         stats = make_stats(results) 
-        print_sorted_stats(stats, 'bitch_avg')    
+        print_sorted_stats(stats, 'ho_avg')    
