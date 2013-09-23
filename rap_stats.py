@@ -166,4 +166,5 @@ if __name__ == '__main__':
     else:
         results = count_for_all_artists()
         stats = make_stats_dict(results) 
+        # This should be a command-line flag of what we want to sort on. 
         print_sorted_stats(stats, 'ho_avg')    
