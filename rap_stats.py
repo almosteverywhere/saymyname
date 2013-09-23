@@ -165,5 +165,5 @@ if __name__ == '__main__':
 
     else:
         results = count_for_all_artists()
-        stats = make_stats(results) 
+        stats = make_stats_dict(results) 
         print_sorted_stats(stats, 'ho_avg')    
