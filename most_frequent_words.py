@@ -8,17 +8,15 @@ import re
 
 # stop_words = re.split("," stop_words)
 
+# ug don't like this global, but what to do? 
 stop_file = "stop_words2.txt"
-
-stop_words = []
+STOP_WORDS = set()
 
 def get_stop_words(file):
 
 	f = open(file, "r")
 	for word in f.readlines():
-		stop_words.append(word.strip())
-	return stop_words
-
+		STOP_WORDS.add(word.strip())
 
 # pass in a list of artists, return a counter of most used words,
 # so can be used for just one
@@ -42,7 +40,8 @@ def count_all_words_for_one_artist(artist):
 	for song in song_list:
 		lyrics = scrape_lyrics_from_song(song)
 		words = re.findall(r'\w+', lyrics.lower())
-		count.update(words)
+		# whoa list comprehension
+		count.update([w for w in words if w not in STOP_WORDS])
 	return count
 
 def make_artists_list(dir=basedir):
@@ -51,6 +50,7 @@ def make_artists_list(dir=basedir):
 	return artists
 
 if __name__ == '__main__':
+	get_stop_words("stop_words2.txt")
 	artists = make_artists_list()
 	big_count = count_words_for_all_artists(artists)
 	print big_count.most_common(100)
