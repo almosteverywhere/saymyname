@@ -156,6 +156,15 @@ def print_sorted_stats(results, mykey, results_file="results.txt"):
         f.write("\n\n")   
     f.close()
 
+# to put into plotly
+def print_csv(results, mykey='bitch_avg', results_file="results.csv.txt"):
+    f = open(results_file, "w")
+    myresults = get_sorted_stats(results, mykey)
+    for artist in myresults:
+        # artist[0] is the name
+        f.write("%s, %s\n" % (artist[0], artist[1][mykey]))
+    f.close()
+
 if __name__ == '__main__':
     # we can do the stats for just one artist 
     if sys.argv[1:]:
@@ -167,4 +176,5 @@ if __name__ == '__main__':
         results = count_for_all_artists()
         stats = make_stats_dict(results) 
         # This should be a command-line flag of what we want to sort on. 
-        print_sorted_stats(stats, 'ho_avg')    
+        # print_sorted_stats(stats, 'bitch_avg')    
+        print_csv(results, 'bitch_avg', "results_csv.txt")
